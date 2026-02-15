@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   useLocation,
@@ -96,25 +96,26 @@ import Librarian from "./pages/Services/Products/Librarian";
 import MAC from "./pages/Services/Products/MAC";
 
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    if (window.location.hash) {
-      const element = document.querySelector(window.location.hash);
+    if (hash) {
+      const id = hash.replace("#", "");
+      const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
       }
     } else {
       window.scrollTo(0, 0);
     }
-  }, [pathname, window.location.hash]);
+  }, [pathname, hash]);
 
   return null;
 }
 
 function App() {
   return (
-    <Router basename="/ACML">
+    <Router>
       <ThemeProvider>
         <div className="min-h-screen flex flex-col bg-gradient-to-br from-emerald-100 to-blue-100 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-gray-100 transition-colors duration-300">
           <ScrollToTop />
