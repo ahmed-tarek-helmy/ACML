@@ -8,23 +8,22 @@ import {
   Twitter,
 } from "lucide-react";
 
-interface FooterProps {
-  setCurrentPage: (page: string) => void;
-}
+import { Link } from "react-router-dom";
 
-export default function Footer({ setCurrentPage }: FooterProps) {
+export default function Footer() {
   const quickLinks = [
-    { id: "home", label: "Home" },
-    { id: "about", label: "About Us" },
-    { id: "services", label: "Services" },
-    { id: "contact", label: "Contact" },
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About Us" },
+    { path: "/services", label: "Services" },
+    { path: "/contact", label: "Contact" },
+    { path: "/about/chairman/clients", label: "Client References" },
   ];
 
   const services = [
-    { label: "Books & Periodicals", id: "services-bookshop" },
-    { label: "Electronic Journals", id: "services" },
-    { label: "Library Automation", id: "services-lms" },
-    { label: "Publishers", id: "publishers" },
+    { label: "Books & Periodicals", path: "/services/bookshop" },
+    { label: "Electronic Journals", path: "/services" },
+    { label: "Library Automation", path: "/services/librarian" },
+    { label: "Digitization", path: "/services/mac" },
   ];
 
   return (
@@ -77,16 +76,13 @@ export default function Footer({ setCurrentPage }: FooterProps) {
             </h4>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
-                <li key={link.id}>
-                  <button
-                    onClick={() => {
-                      setCurrentPage(link.id);
-                      window.scrollTo({ top: 0, behavior: "smooth" });
-                    }}
-                    className="text-sm hover:text-emerald-400 transition-colors text-left"
+                <li key={link.path}>
+                  <Link
+                    to={link.path}
+                    className="text-sm hover:text-emerald-400 transition-colors text-left block"
                   >
                     {link.label}
-                  </button>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -98,16 +94,13 @@ export default function Footer({ setCurrentPage }: FooterProps) {
             </h4>
             <ul className="space-y-2">
               {services.map((service) => (
-                <li key={service.id}>
-                  <button
-                    onClick={() => {
-                      setCurrentPage(service.id);
-                      window.scrollTo({ top: 0, behavior: "smooth" });
-                    }}
-                    className="text-sm hover:text-emerald-400 transition-colors text-left"
+                <li key={service.path}>
+                  <Link
+                    to={service.path}
+                    className="text-sm hover:text-emerald-400 transition-colors text-left block"
                   >
                     {service.label}
-                  </button>
+                  </Link>
                 </li>
               ))}
             </ul>

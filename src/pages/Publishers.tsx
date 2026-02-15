@@ -1,7 +1,9 @@
 import { Shield, FileText, Globe, Search, Download, Lock } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Publishers() {
+  const location = useLocation();
   const publisherBodies = [
     {
       category: "Aviation Products",
@@ -11,15 +13,18 @@ export default function Publishers() {
           id: "aiaa",
         },
         { name: "AV DATA", id: "av-data" },
-        { name: "ICAO", id: "icao" },
-        { name: "ILS", id: "ils" },
+        {
+          name: "ICAO - International Civil Aviation Organization",
+          id: "icao",
+        },
+        { name: "ILS - Inventory Locator Service", id: "ils" },
       ],
     },
     {
       category: "Engineering Design's & Tools",
       organizations: [
         { name: "ESDU - Engineering Sciences Data Unit", id: "esdu" },
-        { name: "PTC", id: "ptc" },
+        { name: "PTC - Productivity and Technology Council", id: "ptc" },
         { name: "IHS Intermat Solutions", id: "intermat" },
       ],
     },
@@ -28,9 +33,9 @@ export default function Publishers() {
       organizations: [
         { name: "ACM - Association for Computing Machinery", id: "acm" },
         { name: "CABI Publishing", id: "cabi" },
-        { name: "Ebsco Information Services", id: "ebsco" },
+        { name: "Ebsco Information Services ", id: "ebsco" },
         { name: "EBSCO Databases List", id: "ebsco-databases" },
-        { name: "Taylor & Francis", id: "taylor-francis" },
+        { name: "Taylor & Francis Research", id: "taylor-francis" },
       ],
     },
     {
@@ -45,15 +50,15 @@ export default function Publishers() {
       category: "Economics, Business & Social Sciences",
       organizations: [
         { name: "Global Trade Tracker", id: "gtt" },
-        { name: "HeinOnline", id: "hein" },
+        { name: "HeinOnline Business & Economics", id: "hein" },
       ],
     },
     {
       category: "Medical & Pharmaceutical Databases",
       organizations: [
-        { name: "3B Scientific", id: "3b-scientific" },
-        { name: "Primal Pictures", id: "primal-pictures" },
-        { name: "Jaypee", id: "jaypee" },
+        { name: "3B Scientific ", id: "3b-scientific" },
+        { name: "Primal Pictures ", id: "primal-pictures" },
+        { name: "Jaypee ", id: "jaypee" },
       ],
     },
     {
@@ -67,7 +72,7 @@ export default function Publishers() {
         { name: "EndNote", id: "endnote" },
         { name: "PressReader", id: "pressreader" },
         { name: "Library of Congress", id: "loc" },
-        { name: "OCLC", id: "oclc" },
+        { name: "OCLC - Online Computer Library Center", id: "oclc" },
       ],
     },
     {
@@ -78,7 +83,7 @@ export default function Publishers() {
       category: "Library Supplies & Furniture",
       organizations: [
         { name: "Demco", id: "demco" },
-        { name: "Gaylord", id: "gaylord" },
+        { name: "Gaylord Library", id: "gaylord" },
         { name: "Hannecke", id: "hannecke" },
       ],
     },
@@ -112,41 +117,85 @@ export default function Publishers() {
           id: "aiaa",
         },
         { name: "ESDU - Engineering Sciences Data Unit", id: "esdu" },
-        { name: "AASHTO", id: "aashto" },
-        { name: "ACI", id: "aci" },
-        { name: "ANSI", id: "ansi" },
+        {
+          name: "AASHTO - American Association of State Highway and Transportation Officials",
+          id: "aashto",
+        },
+        { name: "ACI - American Concrete Institute", id: "aci" },
+        { name: "ANSI - American National Standards Institute", id: "ansi" },
         { name: "API (American Petroleum Institute)", id: "api" },
-        { name: "ASCE", id: "asce" },
-        { name: "ASME", id: "asme" },
+        { name: "ASCE - American Society of Civil Engineers", id: "asce" },
+        { name: "ASME - American Society of Mechanical Engineers", id: "asme" },
         {
           name: "ASME Boiler & Pressure Vessel Code (ASME BPVC)",
           id: "asme-bpvc",
         },
-        { name: "ASTM", id: "astm" },
+        {
+          name: "ASTM - American Society for Testing and Materials",
+          id: "astm",
+        },
         { name: "ASTM Proficiency Testing Program (PTP)", id: "astm-ptp" },
-        { name: "AV DATA", id: "av-data" },
-        { name: "AWS", id: "aws" },
+        {
+          name: "AV DATA - American Society for Testing and Materials",
+          id: "av-data",
+        },
+        { name: "AWS - American Society for Testing and Materials", id: "aws" },
         { name: "AIP - American Institute of Physics", id: "aip" },
         { name: "ChemWatch", id: "chemwatch" },
         { name: "Haystack", id: "haystack" },
-        { name: "ICAO", id: "icao" },
-        { name: "NFPA", id: "nfpa" },
-        { name: "PTC", id: "ptc" },
-        { name: "SAE", id: "sae" },
-        { name: "SIAM", id: "siam" },
-        { name: "Standards & International Societies", id: "standards" },
+        {
+          name: "ICAO - International Civil Aviation Organization",
+          id: "icao",
+        },
+        { name: "NFPA - National Fire Protection Association", id: "nfpa" },
+        { name: "PTC - Productivity and Technology Council", id: "ptc" },
+        { name: "SAE - Society of Automotive Engineers", id: "sae" },
+        {
+          name: "SIAM - Society for Industrial and Applied Mathematics",
+          id: "siam",
+        },
+        {
+          name: "S.D.O.S - Standards & International Societies",
+          id: "standards",
+        },
       ],
     },
     {
-      category: "International Publishers (Legacy)",
+      category: "Digital Library of International Codes and Standards",
+      id: "digital-library",
       organizations: [
         {
-          name: "ISO - International Organization for Standardization",
+          name: "ACCURIS - Complete Engineering Intelligence for Your Business",
           id: "",
         },
+        {
+          name: "AASHTO - American Association of State Highway and Transportation Officials",
+          id: "aashto",
+        },
+        { name: "ANSI - American National Standards Institute", id: "ansi" },
+        { name: "API (American Petroleum Institute)", id: "api" },
+        { name: "ASCE - American Society of Civil Engineers", id: "asce" },
+        { name: "ASME - American Society of Mechanical Engineers", id: "asme" },
+        {
+          name: "ASME - Boiler & Pressure Vessel Code (ASME BPVC)",
+          id: "asme-bpvc",
+        },
+        {
+          name: "ASTM - American Society for Testing and Materials",
+          id: "astm",
+        },
+        { name: "ASTM Proficiency Testing Program (PTP)", id: "astm-ptp" },
         { name: "IEC - International Electrotechnical Commission", id: "" },
-        { name: "ITU - International Telecommunication Union", id: "" },
-        { name: "Codex Alimentarius - Food Standards", id: "" },
+        {
+          name: "IEEE - Institute of Electrical and Electronics Engineers",
+          id: "",
+        },
+        { name: "NFPA - National Fire Protection Association", id: "nfpa" },
+        {
+          name: "S.D.O.S Standards & International Societies",
+          id: "standards",
+        },
+        { name: "UIC - Unit Identification Code", id: "" },
       ],
     },
   ];
@@ -197,6 +246,16 @@ export default function Publishers() {
     "Telecommunications",
     "Transportation",
   ];
+
+  // Handle scroll to hash on load
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.slice(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
 
   return (
     <div className="pt-20">
@@ -258,7 +317,8 @@ export default function Publishers() {
             {publisherBodies.map((section, index) => (
               <div
                 key={index}
-                className="bg-white dark:bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-8"
+                id={section.id}
+                className="bg-white dark:bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-8 scroll-mt-24"
               >
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-emerald-100 dark:bg-emerald-900/30 rounded-lg flex items-center justify-center mr-4">

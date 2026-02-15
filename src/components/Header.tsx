@@ -110,20 +110,20 @@ export default function Header() {
               path: "/about/chairman/accomplishments",
               description: "Milestones and successes of our leadership.",
             },
+            {
+              label: "Client References",
+              path: "/about/chairman/clients",
+              description: "Our valued clients across various sectors.",
+            },
           ],
         },
         {
           title: "Standards",
           links: [
             {
-              label: "ASA Standards (En)",
-              path: "/about/asa-standards",
-              description: "Access American standards in English.",
-            },
-            {
-              label: "ASA Standards (Ar)",
-              path: "/about/asa-standards-ar",
-              description: "Access American standards in Arabic.",
+              label: "Digital Library of International Codes and Standards",
+              path: "/publishers#digital-library",
+              description: "Access to international codes and standards.",
             },
           ],
         },
@@ -195,26 +195,24 @@ export default function Header() {
           title: "Our Software Products",
           links: [
             {
-              label: "LMS - Library Management",
-              path: "/services/lms",
-              description:
-                "Integrated systems for efficient library operations.",
+              label: "LIBRARIAN A",
+              path: "/services/librarian",
+              description: "Integrated Library Management System",
             },
             {
-              label: "DMS - Document Management",
-              path: "/services/dms",
-              description: "Streamline your document workflows.",
+              label: "MAC",
+              path: "/services/mac",
+              description: "Management Archives Content",
             },
             {
-              label: "LawyerMAC",
+              label: "L-MAC",
               path: "/services/lawyer-mac",
-              description:
-                "Specialized management solutions for legal professionals.",
+              description: "Lawyer MAC",
             },
             {
-              label: "Bookshop",
+              label: "MBC",
               path: "/services/bookshop",
-              description: "Browse our extensive collection of publications.",
+              description: "Management Bookshops Content",
             },
           ],
         },

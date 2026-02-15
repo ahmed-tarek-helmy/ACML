@@ -5,7 +5,7 @@ import { useEffect } from "react";
 // Default favicon from index.html
 const DEFAULT_FAVICON = "/vite.svg";
 const DEFAULT_TITLE =
-  "ACML - Alex Centre for Multimedia & Libraries | Your Gateway to the Information Age";
+  "ACML - Acml Integrated Information Solution & Systems | Your Gateway to the Information Age";
 
 export const usePageMetadata = (title: string, faviconUrl: string) => {
   useEffect(() => {

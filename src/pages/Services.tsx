@@ -8,9 +8,11 @@ import {
   FileText,
   Lightbulb,
 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Services() {
+  const location = useLocation();
   const services = [
     {
       icon: BookOpen,
@@ -35,6 +37,7 @@ export default function Services() {
         "Subject-specific collections",
         "Advanced search and filtering tools",
       ],
+      linkId: "databases",
     },
     {
       icon: FileText,
@@ -104,11 +107,11 @@ export default function Services() {
       features: [
         {
           label: "LIBRARIAN A (Integrated Library Management System)",
-          path: "/services/lms",
+          path: "/services/librarian",
         },
-        { label: "MAC (Management Archives Content)", path: "/services/dms" },
+        { label: "MAC (Management Archives Content)", path: "/services/mac" },
         {
-          label: "L-MAC (Lawyer Management System)",
+          label: "L-MAC (Lawyer MAC)",
           path: "/services/lawyer-mac",
         },
         {
@@ -131,6 +134,16 @@ export default function Services() {
       ],
     },
   ];
+
+  // Handle scroll to hash on load
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.slice(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
 
   return (
     <div className="pt-20">
@@ -155,9 +168,10 @@ export default function Services() {
             {services.map((service, index) => (
               <div
                 key={index}
+                id={service.linkId}
                 className={`flex flex-col ${
                   index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
-                } gap-12 items-center`}
+                } gap-12 items-center scroll-mt-24`}
               >
                 <div className="flex-1">
                   <div className="w-16 h-16 bg-emerald-100 dark:bg-emerald-900/30 rounded-xl flex items-center justify-center mb-6">
@@ -278,7 +292,7 @@ export default function Services() {
             </div>
             <div className="text-center mt-8">
               <Link
-                to="/services/lms"
+                to="/services/librarian"
                 className="bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-all duration-200 shadow-md hover:shadow-lg inline-block"
               >
                 Learn More About LIBRARIAN A

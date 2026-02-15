@@ -6,14 +6,11 @@ import {
   BookOpen,
   User,
   Briefcase,
+  FileText,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
-interface AboutProps {
-  setCurrentPage: (page: string) => void;
-}
-
-export default function About({ setCurrentPage }: AboutProps) {
+export default function About() {
   const values = [
     {
       icon: Target,
@@ -77,10 +74,10 @@ export default function About({ setCurrentPage }: AboutProps) {
               About ACML
             </h1>
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              Alex Centre for Multimedia & Libraries is your trusted partner in
-              the information age, providing comprehensive solutions for
-              libraries, academic institutions, and organizations across Egypt
-              and beyond.
+              Acml Integrated Information Solution & Systems is your trusted
+              partner in the information age, providing comprehensive solutions
+              for libraries, academic institutions, and organizations across
+              Egypt and beyond.
             </p>
           </div>
         </div>
@@ -238,6 +235,14 @@ export default function About({ setCurrentPage }: AboutProps) {
                     <Briefcase size={18} className="mr-2" /> Accomplishment
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to="/about/chairman/clients"
+                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                  >
+                    <FileText size={18} className="mr-2" /> Client References
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -249,18 +254,11 @@ export default function About({ setCurrentPage }: AboutProps) {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    to="/about/asa-standards"
+                    to="/publishers#digital-library"
                     className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
                   >
-                    <BookOpen size={18} className="mr-2" /> ASA Standards (En)
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about/asa-standards-ar"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors font-arabic"
-                  >
-                    <BookOpen size={18} className="mr-2" /> ASA Standards (Ar)
+                    <BookOpen size={18} className="mr-2" /> Digital Library of
+                    International Codes and Standards
                   </Link>
                 </li>
               </ul>

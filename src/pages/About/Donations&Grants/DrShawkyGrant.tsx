@@ -1,23 +1,21 @@
 import React from "react";
 import { Award, FileText, Globe, ArrowLeft } from "lucide-react";
 
-interface DrShawkyGrantProps {
-  onBack: () => void;
-}
+import { Link } from "react-router-dom";
 
-export default function DrShawkyGrant({ onBack }: DrShawkyGrantProps) {
+export default function DrShawkyGrant() {
   return (
     <div className="pt-20 min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       {/* Hero Section */}
       <section className="bg-emerald-900 text-white py-20 relative">
         <div className="container mx-auto px-4 text-center relative z-10">
-          <button
-            onClick={onBack}
+          <Link
+            to="/about/donations-grants"
             className="absolute left-4 top-0 md:top-auto md:left-8 text-white/80 hover:text-white flex items-center gap-2 transition-colors"
           >
             <ArrowLeft size={20} />
             <span>Back</span>
-          </button>
+          </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Dr. Shawky Salem Grant
           </h1>
