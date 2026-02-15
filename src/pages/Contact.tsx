@@ -1,69 +1,112 @@
-import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
-import { useState } from 'react';
+import { Mail, Phone, MapPin, Clock, Send, Printer } from "lucide-react";
+import { useState } from "react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    organization: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    organization: "",
+    subject: "",
+    message: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert('Thank you for your message! We will get back to you soon.');
+    alert("Thank you for your message! We will get back to you soon.");
     setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      organization: '',
-      subject: '',
-      message: '',
+      name: "",
+      email: "",
+      phone: "",
+      organization: "",
+      subject: "",
+      message: "",
     });
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
+  ) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
 
-  const contactInfo = [
+  interface ContactDetail {
+    text: string;
+    link?: string;
+  }
+
+  interface ContactItem {
+    icon: any;
+    title: string;
+    details: ContactDetail[];
+    link?: string;
+  }
+
+  const contactInfo: ContactItem[] = [
     {
       icon: MapPin,
-      title: 'Visit Us',
-      details: ['Alex Centre for Multimedia & Libraries', 'Alexandria, Egypt'],
+      title: "Visit Us",
+      details: [
+        { text: "Acml Integrated Information Solution & Systems" },
+        { text: "Alexandria, Egypt" },
+      ],
+      link: "https://maps.app.goo.gl/W5haNwtnD66WmyA16",
     },
     {
       icon: Phone,
-      title: 'Call Us',
-      details: ['Contact us for phone information', 'Available during business hours'],
+      title: "Call Us",
+      details: [
+        { text: "General Information:" },
+        { text: "(+203) 5411741", link: "tel:+2035411741" },
+        { text: "OR" },
+        { text: "(+203) 5411109", link: "tel:+2035411109" },
+      ],
+      link: "tel:+2035411741",
     },
     {
       icon: Mail,
-      title: 'Email Us',
-      details: ['info@acml-egypt.com', 'We respond within 24 hours'],
+      title: "Email Us",
+      details: [
+        { text: "info@acml-egypt.com", link: "mailto:info@acml-egypt.com" },
+        { text: "We respond within 24 hours" },
+      ],
+      link: "mailto:info@acml-egypt.com",
+    },
+    {
+      icon: Printer,
+      title: "Fax",
+      details: [
+        {
+          text: "When faxing an inquiry, please include a fax cover sheet with the subject and to the attention of the Chairman Office.",
+        },
+        { text: "Our fax number is +203 541 1742." },
+      ],
     },
     {
       icon: Clock,
-      title: 'Business Hours',
-      details: ['Sunday - Thursday: 9:30 AM - 5:30 PM', 'Friday - Saturday: Closed'],
+      title: "Business Hours",
+      details: [
+        { text: "Sunday - Thursday: 9:30 AM - 5:30 PM" },
+        { text: "Friday - Saturday: Closed" },
+      ],
     },
   ];
 
   const subjects = [
-    'General Inquiry',
-    'Books & Periodicals',
-    'Electronic Databases',
-    'Library Automation',
-    'Publishers',
-    'Restoration Services',
-    'ICT Consultancy',
-    'Partnership Opportunities',
-    'Other',
+    "General Inquiry",
+    "Books & Periodicals",
+    "Electronic Databases",
+    "Library Automation",
+    "Publishers",
+    "Restoration Services",
+    "ICT Consultancy",
+    "Partnership Opportunities",
+    "Other",
   ];
 
   return (
@@ -71,10 +114,13 @@ export default function Contact() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">Get in Touch</h1>
+            <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
+              Get in Touch
+            </h1>
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              Have questions about our services? Need assistance with your library solutions?
-              Our team is here to help you find the right solutions for your institution.
+              Have questions about our services? Need assistance with your
+              library and information centers solutions? Our team is here to help you
+              find the right solutions for your institution.
             </p>
           </div>
         </div>
@@ -82,17 +128,76 @@ export default function Contact() {
 
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
             {contactInfo.map((info, index) => (
-              <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <info.icon size={28} className="text-emerald-600 dark:text-emerald-400" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">{info.title}</h3>
+              <div key={index} className="text-center group">
+                {/* Wrap the icon in a link if provided (mostly for Visit Us/Email) */}
+                {info.link ? (
+                  <a
+                    href={info.link}
+                    target={info.link.startsWith("http") ? "_blank" : undefined}
+                    rel={
+                      info.link.startsWith("http")
+                        ? "noopener noreferrer"
+                        : undefined
+                    }
+                    className="inline-block transition-transform group-hover:scale-110"
+                  >
+                    <div className="w-16 h-16 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <info.icon
+                        size={28}
+                        className="text-emerald-600 dark:text-emerald-400"
+                      />
+                    </div>
+                  </a>
+                ) : (
+                  <div className="w-16 h-16 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                    <info.icon
+                      size={28}
+                      className="text-emerald-600 dark:text-emerald-400"
+                    />
+                  </div>
+                )}
+
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
+                  {info.link ? (
+                    <a
+                      href={info.link}
+                      target={
+                        info.link.startsWith("http") ? "_blank" : undefined
+                      }
+                      rel={
+                        info.link.startsWith("http")
+                          ? "noopener noreferrer"
+                          : undefined
+                      }
+                      className="group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors"
+                    >
+                      {info.title}
+                    </a>
+                  ) : (
+                    <span className="group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                      {info.title}
+                    </span>
+                  )}
+                </h3>
+
                 <div className="space-y-1">
                   {info.details.map((detail, idx) => (
-                    <p key={idx} className="text-gray-600 dark:text-gray-400 text-sm">
-                      {detail}
+                    <p
+                      key={idx}
+                      className="text-gray-600 dark:text-gray-400 text-sm"
+                    >
+                      {detail.link ? (
+                        <a
+                          href={detail.link}
+                          className="hover:text-emerald-600 dark:hover:text-emerald-400 underline decoration-emerald-500/30 hover:decoration-emerald-500 transition-colors"
+                        >
+                          {detail.text}
+                        </a>
+                      ) : (
+                        detail.text
+                      )}
                     </p>
                   ))}
                 </div>
@@ -107,16 +212,22 @@ export default function Contact() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-8 md:p-12">
               <div className="text-center mb-10">
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Send Us a Message</h2>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+                  Send Us a Message
+                </h2>
                 <p className="text-gray-600 dark:text-gray-400">
-                  Fill out the form below and our team will respond to your inquiry as soon as possible
+                  Fill out the form below and our team will respond to your
+                  inquiry as soon as possible
                 </p>
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                    <label
+                      htmlFor="name"
+                      className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2"
+                    >
                       Full Name *
                     </label>
                     <input
@@ -132,7 +243,10 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2"
+                    >
                       Email Address *
                     </label>
                     <input
@@ -150,7 +264,10 @@ export default function Contact() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                    <label
+                      htmlFor="phone"
+                      className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2"
+                    >
                       Phone Number
                     </label>
                     <input
@@ -165,7 +282,10 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label htmlFor="organization" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                    <label
+                      htmlFor="organization"
+                      className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2"
+                    >
                       Organization
                     </label>
                     <input
@@ -181,7 +301,10 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                  <label
+                    htmlFor="subject"
+                    className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2"
+                  >
                     Subject *
                   </label>
                   <select
@@ -202,7 +325,10 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2"
+                  >
                     Message *
                   </label>
                   <textarea
@@ -237,9 +363,12 @@ export default function Contact() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-gradient-to-br from-emerald-50 to-blue-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-12">
               <div className="text-center mb-8">
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Visit Our Showroom</h2>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+                  Visit Our Showroom
+                </h2>
                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                  Experience our full range of products and services at our Alexandria location
+                  Experience our full range of products and services at our
+                  Alexandria location
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg">
@@ -250,14 +379,16 @@ export default function Contact() {
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                    Alex Centre for Multimedia & Libraries
+                    Acml Integrated Information Solution & Systems
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">
-                    Visit us to explore our comprehensive collection of books, databases, library solutions,
-                    and meet with our expert team to discuss your specific needs.
+                    Visit us to explore our comprehensive collection of books,
+                    databases, library solutions, and meet with our expert team
+                    to discuss your specific needs.
                   </p>
                   <p className="text-sm text-gray-500 dark:text-gray-500">
-                    Please contact us to schedule an appointment for a personalized consultation.
+                    Please contact us to schedule an appointment for a
+                    personalized consultation.
                   </p>
                 </div>
               </div>

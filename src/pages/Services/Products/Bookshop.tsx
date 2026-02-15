@@ -1,76 +1,179 @@
-import React from 'react';
+import { ShoppingBag, Layout, Mail, FileText } from "lucide-react";
 
 export default function Bookshop() {
   return (
-    <div className="pt-20 min-h-screen bg-gray-50 dark:bg-gray-900">
-      <div className="container mx-auto px-4 py-12">
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 max-w-4xl mx-auto">
-          
-          <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">'MBC' MANAGEMENT BOOKSHOPS CONTENT</h4>
-          
-          <div className="text-center mb-8">
-            <div className="bg-gray-200 dark:bg-gray-700 w-48 h-32 mx-auto flex items-center justify-center text-gray-500 dark:text-gray-400 mb-4">
-               Image Placeholder: images/mbc.png
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-20 transition-colors duration-200">
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r from-emerald-800 to-teal-900 text-white py-16">
+        <div className="container mx-auto px-4 text-center">
+          <div className="bg-white inline-block p-6 rounded-2xl mb-6 shadow-xl border border-white/20">
+            <div className="w-[262px] h-[123px] flex items-center justify-center text-gray-400 bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg">
+              <span className="text-sm font-medium">
+                Image Placeholder (mbc.png)
+              </span>
             </div>
-             <p className="font-bold text-lg text-gray-900 dark:text-white">
-               <span className="text-emerald-600 dark:text-emerald-400">'MBC'</span> Management Bookshops Content
-             </p>
-             <div className="flex justify-center gap-4 mt-4">
-                <div className="bg-gray-200 dark:bg-gray-700 w-32 h-12 flex items-center justify-center text-xs">free_price.png</div>
-                <div className="bg-gray-200 dark:bg-gray-700 w-32 h-12 flex items-center justify-center text-xs">free_trail.png</div>
-             </div>
           </div>
-          
-          <div className="text-right mb-4">
-             <a href="#" className="font-bold text-emerald-600 dark:text-emerald-400 hover:underline">Back</a>
-          </div>
-
-          <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">WHAT IS MBC</h4>
-          <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-            <span lang="en">The Alexandria Center for Media and Libraries (ACML) to build this system to serve the sale of books and stationery supplies libraries, this
-            Knowing that many bookshops in Egypt and the Arab world in need Severe for such electronic software, which manages and controls the libraries Sales, and provide appropriate reports, and of course the program applies all specifications Global required for this kind of libraries and the program works on environment Web Hosting and on the base of Microsoft, also deals with all programs<br/>
-            Windows in Arabic and English, which is the basis Alalangelazah work.</span>
+          <h1 className="text-3xl md:text-5xl font-bold mb-6">
+            'MBC' MANAGEMENT BOOKSHOPS CONTENT
+          </h1>
+          <p className="text-lg md:text-xl text-emerald-100 max-w-3xl mx-auto leading-relaxed mb-8">
+            'MBC' Management Bookshops Content
           </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            {/* Placeholder for free_price.png and free_trail.png links */}
+            <a
+              href="mailto:info@ACML-egypt.com"
+              className="bg-white text-emerald-900 hover:bg-emerald-50 px-8 py-3 rounded-full font-bold transition-all transform hover:scale-105 shadow-lg flex items-center"
+            >
+              Request Free Trial
+              <Mail size={18} className="ml-2" />
+            </a>
+          </div>
+        </div>
+      </div>
 
-          <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2"><span lang="en">Work ِِArea</span></h4>
-          <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-            <span lang="en">Place an order to allow the selling points libraries operate in a regulated environment, through the system cover<br/>
-            Of all daily transactions, sales, purchases, stores, returns, financial control.<br/>
-            The system works by focusing on the organization and help improve profits and success factors<br/>
-            And planning and control, as does meet all the daily requirements and all work related to the Library<br/>
-            Easily the sale, adding that the system implements all international specifications and standards.</span>
-          </p>
+      {/* Main Content */}
+      <div className="container mx-auto px-4 py-12 animate-fade-in-up">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Left Column - Main Info */}
+          <div className="lg:col-span-2 space-y-8">
+            {/* WHAT IS MBC Section */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-[1.02] p-8 md:p-12 border border-gray-100 dark:border-gray-700">
+              <div className="flex items-center mb-6">
+                <div className="p-3 bg-emerald-100 dark:bg-emerald-900/30 rounded-xl mr-4">
+                  <ShoppingBag
+                    className="text-emerald-600 dark:text-emerald-400"
+                    size={24}
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+                  WHAT IS MBC
+                </h3>
+              </div>
+              <div className="prose prose-lg dark:prose-invert max-w-none text-gray-600 dark:text-gray-300">
+                <p>
+                  The Alexandria Center for Media and Libraries (ACML) to build
+                  this system to serve the sale of books and stationery supplies
+                  libraries, this Knowing that many bookshops in Egypt and the
+                  Arab world in need Severe for such electronic software, which
+                  manages and controls the libraries Sales, and provide
+                  appropriate reports, and of course the program applies all
+                  specifications Global required for this kind of libraries and
+                  the program works on environment Web Hosting and on the base
+                  of Microsoft, also deals with all programs Windows in Arabic
+                  and English, which is the basis Alalangelazah work.
+                </p>
+              </div>
+            </div>
 
-          <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2"><span lang="en">Features and characteristics of the system</span></h4>
-          <p className="text-gray-700 dark:text-gray-300 mb-2">
-            <span lang="en">MBC provides sales and POS to improve its system <span lang="en">through the following features.</span></span>
-          </p>
-          <div className="text-gray-700 dark:text-gray-300 mb-6 space-y-1">
-            <p>1- Multi Branches.</p>
-            <p>2- Security system.</p>
-            <p>3- Sales.</p>
-            <p>4- <span lang="en">Purchases.</span></p>
-            <p>5- <span lang="en">Returns for (customers and suppliers).</span></p>
-            <p>6- <span lang="en">Stores Managment.</span></p>
-            <p>7- Reports.</p>
+            {/* Work Area Section */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-8 border border-gray-100 dark:border-gray-700">
+              <div className="flex items-center mb-6">
+                <div className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-xl mr-4">
+                  <Layout
+                    className="text-blue-600 dark:text-blue-400"
+                    size={24}
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+                  Work Area
+                </h3>
+              </div>
+              <div className="prose prose-lg dark:prose-invert max-w-none text-gray-600 dark:text-gray-300">
+                <p>
+                  Place an order to allow the selling points libraries operate
+                  in a regulated environment, through the system cover Of all
+                  daily transactions, sales, purchases, stores, returns,
+                  financial control. The system works by focusing on the
+                  organization and help improve profits and success factors And
+                  planning and control, as does meet all the daily requirements
+                  and all work related to the Library Easily the sale, adding
+                  that the system implements all international specifications
+                  and standards.
+                </p>
+              </div>
+            </div>
+
+            {/* Features and characteristics Section */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-8 border border-gray-100 dark:border-gray-700">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
+                Features and characteristics of the system
+              </h3>
+              <p className="mb-4 text-gray-600 dark:text-gray-300">
+                MBC provides sales and POS to improve its system through the
+                following features.
+              </p>
+              <div className="space-y-2">
+                {[
+                  "1- Multi Branches.",
+                  "2- Security system.",
+                  "3- Sales.",
+                  "4- Purchases.",
+                  "5- Returns for (customers and suppliers).",
+                  "6- Stores Managment.",
+                  "7- Reports.",
+                ].map((feature, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg"
+                  >
+                    <span className="text-gray-700 dark:text-gray-300 font-medium">
+                      {feature}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* General Features Section */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-8 border border-gray-100 dark:border-gray-700">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
+                General Features
+              </h3>
+              <div className="space-y-2">
+                {[
+                  "1- Language program in English and Arabic supports.",
+                  "2- The possibility of sales tax expense ratios discount automatically.",
+                  "3- system software supports Barcode & QR.",
+                  "4- The program works in more than one branch.",
+                  "5- The software environment is the Web.",
+                  "6- Take into account international standards and working environment in Egypt and Arab countries.",
+                  "7- Base programs and data SQL & MYSQL.",
+                ].map((feature, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg"
+                  >
+                    <span className="text-gray-700 dark:text-gray-300 font-medium">
+                      {feature}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
 
-          <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2"><span lang="en">General Features</span></h4>
-          <div className="text-gray-700 dark:text-gray-300 mb-6 space-y-1">
-            <p>1- <span lang="en">Language program in English and Arabic supports.</span></p>
-            <p>2- <span lang="en">The possibility of sales tax expense ratios discount automatically.</span></p>
-            <p>3- <span lang="en">system software supports</span> Barcode & QR.</p>
-            <p>4- <span lang="en">The program works in more than one branch</span>.</p>
-            <p>5- <span lang="en">The software environment is the Web.</span></p>
-            <p>6- <span lang="en">Take into account international standards and working environment in Egypt and Arab countries.</span></p>
-            <p>7- <span lang="en">Base programs and data </span>SQL & MYSQL.</p>
-          </div>
+          {/* Right Column - Stats/Quick Links */}
+          <div className="space-y-6">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700 sticky top-24">
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 border-b border-gray-100 dark:border-gray-700 pb-2">
+                Downloads
+              </h3>
 
-          <p className="font-bold text-gray-900 dark:text-white mt-8 mb-4">Please Download The PDF For More Information:</p>
-          <div className="space-y-3">
-             <p><strong><a href="#" className="font-bold text-emerald-600 dark:text-emerald-400 hover:underline">MBC BROCHURE</a></strong></p>
+              <div className="space-y-3">
+                <p className="font-medium text-gray-900 dark:text-white mb-2">
+                  Please Download The PDF For More Information:
+                </p>
+                <a
+                  href="mbcBourchore full.pdf"
+                  className="flex items-center justify-center w-full p-3 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-300 rounded-lg hover:bg-emerald-100 dark:hover:bg-emerald-900/30 transition-colors font-medium text-sm"
+                >
+                  <FileText size={16} className="mr-2" />
+                  MBC BROCHURE
+                </a>
+              </div>
+            </div>
           </div>
-          
         </div>
       </div>
     </div>

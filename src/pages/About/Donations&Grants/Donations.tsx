@@ -1,10 +1,6 @@
 import React from "react";
 import { Gift, ArrowLeft, Search } from "lucide-react";
 
-interface DonationsProps {
-  onBack: () => void;
-}
-
 const donationsData = [
   {
     organization: "Alexandria University - Faculty of Commerce",
@@ -234,7 +230,9 @@ const donationsData = [
   },
 ];
 
-export default function Donations({ onBack }: DonationsProps) {
+import { Link } from "react-router-dom";
+
+export default function Donations() {
   const [searchTerm, setSearchTerm] = React.useState("");
 
   const filteredDonations = donationsData.filter(
@@ -248,15 +246,13 @@ export default function Donations({ onBack }: DonationsProps) {
       {/* Hero Section */}
       <section className="bg-emerald-900 text-white py-20 relative">
         <div className="container mx-auto px-4 text-center relative z-10">
-          {onBack && (
-            <button
-              onClick={onBack}
-              className="absolute left-4 top-0 md:top-auto md:left-8 text-white/80 hover:text-white flex items-center gap-2 transition-colors"
-            >
-              <ArrowLeft size={20} />
-              <span>Back</span>
-            </button>
-          )}
+          <Link
+            to="/about/donations-grants"
+            className="absolute left-4 top-0 md:top-auto md:left-8 text-white/80 hover:text-white flex items-center gap-2 transition-colors"
+          >
+            <ArrowLeft size={20} />
+            <span>Back</span>
+          </Link>
           <div className="w-16 h-16 bg-emerald-800 rounded-full flex items-center justify-center mx-auto mb-6">
             <Gift className="text-emerald-400" size={32} />
           </div>

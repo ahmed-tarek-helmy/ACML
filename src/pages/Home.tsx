@@ -13,45 +13,51 @@ export default function Home() {
   const features = [
     {
       icon: BookOpen,
-      title: "Books & Periodicals",
+      title: "Digital Library of International Codes and Standards",
       description:
-        "Comprehensive collection of academic and professional publications from leading international publishers.",
+        "Access to a comprehensive collection of international codes and standards.",
+      path: "/publishers#digital-library",
     },
     {
       icon: Database,
       title: "Digital Databases",
       description:
         "Access to full-text databases, electronic journals, and digital content management systems.",
+      path: "/services#databases",
     },
     {
       icon: Building2,
-      title: "Library Solutions",
+      title: "Library and Archives Solutions",
       description:
         "Complete library automation systems, furniture, and restoration materials for modern libraries.",
+      path: "/services#software-products",
     },
     {
       icon: Shield,
       title: "Publishers",
       description:
         "Standards and regulations from professional societies, trade associations, and regulatory bodies.",
+      path: "/publishers",
     },
     {
       icon: Users,
       title: "Consultancy Services",
       description:
         "Expert ICT consultancy and information literacy training for institutions and organizations.",
+      path: "/about/team",
     },
     {
       icon: TrendingUp,
       title: "E-Content Management",
       description:
         "Leading solutions in electronic content management and digital transformation.",
+      path: "/publishers/fairplay",
     },
   ];
 
   const stats = [
-    { value: "30+", label: "Years of Excellence" },
-    { value: "500+", label: "Partner Publishers" },
+    { value: "1995", label: "Year Of Establishment" },
+    { value: "---", label: "Partner Publishers" },
     { value: "1000+", label: "Satisfied Clients" },
     { value: "24/7", label: "Support Available" },
   ];
@@ -67,7 +73,10 @@ export default function Home() {
             playsInline
             className="w-full h-full object-cover opacity-100 dark:opacity-100"
           >
-            <source src="/videos/Warmup-Page-1.mp4" type="video/mp4" />
+            <source
+              src={`${import.meta.env.BASE_URL}videos/Warmup-Page-1.mp4`}
+              type="video/mp4"
+            />
           </video>
           <div className="absolute inset-0 bg-gradient-to-r from-white/30 to-white/30 dark:from-gray-900/80 dark:to-gray-900/60"></div>
         </div>
@@ -133,30 +142,31 @@ export default function Home() {
               Our Core Services
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Comprehensive solutions for libraries, institutions, and
-              organizations in the digital age
+              Comprehensive solutions for libraries and information centers,
+              institutions, and organizations in the digital age
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <div
+              <Link
                 key={index}
-                className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                to={feature.path}
+                className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block group"
               >
-                <div className="w-14 h-14 bg-emerald-100 dark:bg-emerald-900/30 rounded-lg flex items-center justify-center mb-6">
+                <div className="w-14 h-14 bg-emerald-100 dark:bg-emerald-900/30 rounded-lg flex items-center justify-center mb-6 group-hover:bg-emerald-200 dark:group-hover:bg-emerald-900/50 transition-colors">
                   <feature.icon
                     size={28}
-                    className="text-emerald-600 dark:text-emerald-400"
+                    className="text-emerald-600 dark:text-emerald-400 group-hover:scale-110 transition-transform"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
                   {feature.title}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   {feature.description}
                 </p>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
