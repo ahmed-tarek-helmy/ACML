@@ -5,6 +5,7 @@ import { useNavigate, useLocation, Link } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import LanguageSwitcher from "./LanguageSwitcher";
 import SearchBar from "./SearchBar";
+import logo from "../assets/Logo.png";
 
 interface NavItem {
   id: string; // Used for key and active state matching if path matches
@@ -253,16 +254,14 @@ export default function Header() {
       onMouseLeave={() => setActiveDropdown(null)}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <Link
             to="/"
             className="flex items-center cursor-pointer group"
             onClick={onLinkClick}
           >
-            <div className="text-3xl font-bold text-emerald-600 dark:text-emerald-500 tracking-tight">
-              ACML
-            </div>
+            <img src={logo} alt="ACML" className="h-24 w-auto" />
             <div className="ms-3 text-sm text-gray-600 dark:text-gray-400 hidden md:block border-l border-gray-300 dark:border-gray-700 pl-3">
               {t("brandSubtitle")}
             </div>
@@ -273,7 +272,7 @@ export default function Header() {
             {navItems.map((item) => (
               <div
                 key={item.id}
-                className="relative h-20 flex items-center"
+                className="relative h-24 flex items-center"
                 onMouseEnter={() => setActiveDropdown(item.id)}
               >
                 <Link
