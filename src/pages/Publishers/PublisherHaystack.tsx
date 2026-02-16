@@ -4,7 +4,8 @@ import { ArrowLeft, ExternalLink, Database, ListChecks } from "lucide-react";
 const PublisherHaystack = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-20 transition-colors duration-200">
-      <div className="container mx-auto px-4 py-8">{/* Hero Section */}
+      <div className="container mx-auto px-4 py-8">
+        {/* Hero Section */}
         <div className="bg-gradient-to-r from-amber-600 to-orange-700 text-white py-20 mb-12 rounded-3xl overflow-hidden shadow-xl">
           <div className="container mx-auto px-4 text-center">
             <div className="bg-white p-6 rounded-2xl mb-6 shadow-xl inline-block">

@@ -200,22 +200,22 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/002.jpg"
+                src={`${import.meta.env.BASE_URL}002.jpg`}
                 alt="ACML E-Books and Journals"
                 className="rounded-lg shadow-lg w-full h-48 object-cover dark:opacity-90"
               />
               <img
-                src="/003.jpg"
+                src={`${import.meta.env.BASE_URL}003.jpg`}
                 alt="Library Collection"
                 className="rounded-lg shadow-lg w-full h-48 object-cover mt-8 dark:opacity-90"
               />
               <img
-                src="/004.jpg"
+                src={`${import.meta.env.BASE_URL}004.jpg`}
                 alt="Digital Solutions"
                 className="rounded-lg shadow-lg w-full h-48 object-cover dark:opacity-90"
               />
               <img
-                src="/005.jpg"
+                src={`${import.meta.env.BASE_URL}005.jpg`}
                 alt="ACML Mission"
                 className="rounded-lg shadow-lg w-full h-48 object-cover mt-8 dark:opacity-90"
               />

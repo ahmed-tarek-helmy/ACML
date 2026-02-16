@@ -664,7 +664,8 @@ const PublisherEbsco: React.FC = () => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
       {/* Header */}
       <div className="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between"><h1 className="text-xl font-bold text-gray-900 dark:text-white line-clamp-1">
+        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+          <h1 className="text-xl font-bold text-gray-900 dark:text-white line-clamp-1">
             EBSCO Information Services
           </h1>
         </div>

@@ -119,8 +119,8 @@ export default function Contact() {
             </h1>
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
               Have questions about our services? Need assistance with your
-              library and information centers solutions? Our team is here to help you
-              find the right solutions for your institution.
+              library and information centers solutions? Our team is here to
+              help you find the right solutions for your institution.
             </p>
           </div>
         </div>
@@ -373,7 +373,7 @@ export default function Contact() {
               </div>
               <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg">
                 <img
-                  src="/001.jpg"
+                  src={`${import.meta.env.BASE_URL}001.jpg`}
                   alt="ACML Store Location"
                   className="w-full h-64 object-cover"
                 />
@@ -383,8 +383,9 @@ export default function Contact() {
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">
                     Visit us to explore our comprehensive collection of books,
-                    databases, library solutions, and meet with our expert team
-                    to discuss your specific needs.
+                    databases, library and information centers solutions
+                    solutions, and meet with our expert team to discuss your
+                    specific needs.
                   </p>
                   <p className="text-sm text-gray-500 dark:text-gray-500">
                     Please contact us to schedule an appointment for a

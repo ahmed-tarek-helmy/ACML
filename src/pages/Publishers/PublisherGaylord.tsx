@@ -5,7 +5,8 @@ import { ArrowLeft, ExternalLink, Archive, Box } from "lucide-react";
 const PublisherGaylord: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-20 transition-colors duration-300">
-      <div className="container mx-auto px-4 py-8"><div className="bg-gradient-to-r from-teal-900 to-cyan-900 text-white py-20 mb-12 rounded-3xl overflow-hidden shadow-xl">
+      <div className="container mx-auto px-4 py-8">
+        <div className="bg-gradient-to-r from-teal-900 to-cyan-900 text-white py-20 mb-12 rounded-3xl overflow-hidden shadow-xl">
           <div className="container mx-auto px-4 text-center">
             <div className="bg-white p-6 rounded-2xl mb-8 shadow-xl inline-block">
               <span className="text-4xl font-bold text-teal-700">Gaylord</span>

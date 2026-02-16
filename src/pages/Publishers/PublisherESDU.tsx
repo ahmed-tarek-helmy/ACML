@@ -9,7 +9,8 @@ const PublisherESDU: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-24 pb-12 transition-colors duration-300">
-      <div className="container mx-auto px-4">{/* Hero Section */}
+      <div className="container mx-auto px-4">
+        {/* Hero Section */}
         <div className="bg-gradient-to-r from-blue-800 to-cyan-700 text-white py-20 mb-12 rounded-3xl overflow-hidden shadow-xl">
           <div className="container mx-auto px-4 text-center">
             <div className="bg-white/10 backdrop-blur-sm inline-block p-6 rounded-2xl mb-8 border border-white/20 shadow-xl">
