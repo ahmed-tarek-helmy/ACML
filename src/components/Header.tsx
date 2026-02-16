@@ -5,7 +5,7 @@ import { useNavigate, useLocation, Link } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import LanguageSwitcher from "./LanguageSwitcher";
 import SearchBar from "./SearchBar";
-import logo from "../assets/Logo.png";
+import AnimatedLogo from "./AnimatedLogo";
 
 interface NavItem {
   id: string; // Used for key and active state matching if path matches
@@ -261,7 +261,7 @@ export default function Header() {
             className="flex items-center cursor-pointer group"
             onClick={onLinkClick}
           >
-            <img src={logo} alt="ACML" className="h-24 w-auto" />
+            <AnimatedLogo className="h-24 w-24" />
             <div className="ms-3 text-sm text-gray-600 dark:text-gray-400 hidden md:block border-l border-gray-300 dark:border-gray-700 pl-3">
               {t("brandSubtitle")}
             </div>
