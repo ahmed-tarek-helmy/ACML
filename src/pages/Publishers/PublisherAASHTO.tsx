@@ -42,53 +42,55 @@ const PublisherAASHTO: React.FC = () => {
 
       {/* Main Content - Container */}
       {/* Main Content - Container */}
-      <div className="container mx-auto px-4 py-12 animate-fade-in-up">
-        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] overflow-hidden p-8 md:p-12 space-y-12 text-gray-700 dark:text-gray-300">
-          {/* About Section */}
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-              <Activity className="mr-3 text-blue-600 dark:text-blue-400" />
-              About AASHTO
-            </h2>
-            <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-6">
-              <div className="prose prose-lg dark:prose-invert max-w-none text-gray-600 dark:text-gray-300">
-                <p className="mb-4">
-                  AASHTO standards and specifications include provisional
-                  standards, standard test methods, recommended practices, guide
-                  specifications, and manuals.
-                </p>
-                <p className="mb-4">
-                  General subject categories covered by AASHTO standards
-                  include:
-                </p>
-                <ul className="list-disc pl-6 mb-4 space-y-2">
-                  <li>Administration and economics</li>
-                  <li>Bridges and structures</li>
-                  <li>Construction and right-of-way</li>
-                  <li>Design and traffic</li>
-                  <li>Maintenance</li>
-                  <li>Materials</li>
-                  <li>Planning and environment</li>
-                  <li>Rail and highway transport</li>
-                </ul>
-                <p className="mb-4">
-                  The AASHTO Standards Collection contains more than +1,500
-                  documents.
-                </p>
-                <p className="mb-4">
-                  Designers, engineers, researchers, construction managers, and
-                  inspectors use standards and documents from AASHTO to support
-                  quality and safe design and execution of road construction and
-                  transportation projects.
-                </p>
-              </div>
-              <div className="flex-shrink-0">
-                <div className="image-placeholder w-[305px] h-[237px] bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 text-xs text-center border border-dashed border-gray-400">
-                  AASHTO Image Placeholder
+      <div className="mr-20 ml-20">
+        <div className="container mx-auto px-4 py-12 animate-fade-in-up">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] overflow-hidden p-8 md:p-12 space-y-12 text-gray-700 dark:text-gray-300">
+            {/* About Section */}
+            <section>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+                <Activity className="mr-3 text-blue-600 dark:text-blue-400" />
+                About AASHTO
+              </h2>
+              <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-6">
+                <div className="prose prose-lg dark:prose-invert max-w-none text-gray-600 dark:text-gray-300">
+                  <p className="mb-4">
+                    AASHTO standards and specifications include provisional
+                    standards, standard test methods, recommended practices,
+                    guide specifications, and manuals.
+                  </p>
+                  <p className="mb-4">
+                    General subject categories covered by AASHTO standards
+                    include:
+                  </p>
+                  <ul className="list-disc pl-6 mb-4 space-y-2">
+                    <li>Administration and economics</li>
+                    <li>Bridges and structures</li>
+                    <li>Construction and right-of-way</li>
+                    <li>Design and traffic</li>
+                    <li>Maintenance</li>
+                    <li>Materials</li>
+                    <li>Planning and environment</li>
+                    <li>Rail and highway transport</li>
+                  </ul>
+                  <p className="mb-4">
+                    The AASHTO Standards Collection contains more than +1,500
+                    documents.
+                  </p>
+                  <p className="mb-4">
+                    Designers, engineers, researchers, construction managers,
+                    and inspectors use standards and documents from AASHTO to
+                    support quality and safe design and execution of road
+                    construction and transportation projects.
+                  </p>
+                </div>
+                <div className="flex-shrink-0">
+                  <div className="image-placeholder w-[305px] h-[237px] bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 text-xs text-center border border-dashed border-gray-400">
+                    AASHTO Image Placeholder
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
+          </div>
         </div>
       </div>
     </div>

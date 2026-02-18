@@ -1,15 +1,23 @@
-import { useTranslation } from 'react-i18next';
-import { Globe } from 'lucide-react';
-import { useState, useRef, useEffect } from 'react';
+import { useTranslation } from "react-i18next";
+import { Globe } from "lucide-react";
+import { useState, useRef, useEffect } from "react";
 
-export default function LanguageSwitcher() {
+interface LanguageSwitcherProps {
+  direction?: "up" | "down";
+  align?: "start" | "end";
+}
+
+export default function LanguageSwitcher({
+  direction = "down",
+  align = "end",
+}: LanguageSwitcherProps) {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const languages = [
-    { code: 'en', label: 'English', shortLabel: 'EN' },
-    { code: 'ar', label: 'العربية', shortLabel: 'عربي' },
+    { code: "en", label: "English", shortLabel: "EN" },
+    { code: "ar", label: "العربية", shortLabel: "عربي" },
   ];
 
   const changeLanguage = (lng: string) => {
@@ -19,13 +27,16 @@ export default function LanguageSwitcher() {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
         setIsOpen(false);
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   return (
@@ -39,16 +50,18 @@ export default function LanguageSwitcher() {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full end-0 mt-2 w-32 bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-100 dark:border-gray-800 overflow-hidden z-[100]">
+        <div
+          className={`absolute ${direction === "up" ? "bottom-full mb-2" : "top-full mt-2"} ${align === "start" ? "start-0" : "end-0"} w-32 bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-100 dark:border-gray-800 overflow-hidden z-[100]`}
+        >
           <div className="py-1">
             {languages.map((lang) => (
               <button
                 key={lang.code}
                 onClick={() => changeLanguage(lang.code)}
-                className={`w-full text-left rtl:text-right px-4 py-2 text-sm transition-colors hover:bg-emerald-50 dark:hover:bg-emerald-900/30 ${
+                className={`w-full text-left rtl:text-right px-4 py-2 text-sm font-bold transition-colors hover:bg-emerald-50 dark:hover:bg-emerald-900/30 ${
                   i18n.language === lang.code
-                    ? 'text-emerald-600 dark:text-emerald-500 font-medium'
-                    : 'text-gray-700 dark:text-gray-300'
+                    ? "text-emerald-600 dark:text-emerald-500 font-bold"
+                    : "text-gray-700 dark:text-gray-300"
                 }`}
               >
                 {lang.label}

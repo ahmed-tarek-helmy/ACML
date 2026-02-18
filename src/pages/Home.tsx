@@ -135,7 +135,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -147,7 +147,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
             {features.map((feature, index) => (
               <Link
                 key={index}
@@ -172,7 +172,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>

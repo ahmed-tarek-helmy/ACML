@@ -673,168 +673,172 @@ const PublisherEbsco: React.FC = () => {
 
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-20">
-        <div className="container mx-auto px-4 text-center">
-          <div className="bg-white/10 backdrop-blur-sm inline-block p-6 rounded-2xl mb-8 border border-white/20 shadow-xl">
-            <img
-              src="/images/Ebsco_logo.jpg"
-              alt="Ebsco"
-              className="h-20 object-contain brightness-0 invert"
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-              }}
-            />
-          </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-display">
-            EBSCO Information Services
-          </h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-8">
-            A worldwide leader in providing information access and management
-            solutions through print and electronic journal subscription services
-            and research databases.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="http://www.ebscohost.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-8 py-3 bg-white text-blue-900 rounded-full font-bold hover:bg-blue-50 transition-all transform hover:scale-105 shadow-lg"
-            >
-              <ExternalLink size={20} className="mr-2" />
-              Visit Website
-            </a>
-            <a
-              href="mailto:info@ACML-egypt.com"
-              className="inline-flex items-center px-8 py-3 bg-emerald-600 text-white rounded-full font-bold hover:bg-emerald-700 transition-all transform hover:scale-105 shadow-lg border border-emerald-500"
-            >
-              Request Free Trial
-            </a>
+        <div className="mr-20 ml-20">
+          <div className="container mx-auto px-4 text-center">
+            <div className="bg-white/10 backdrop-blur-sm inline-block p-6 rounded-2xl mb-8 border border-white/20 shadow-xl">
+              <img
+                src="/images/Ebsco_logo.jpg"
+                alt="Ebsco"
+                className="h-20 object-contain brightness-0 invert"
+                onError={(e) => {
+                  e.currentTarget.style.display = "none";
+                }}
+              />
+            </div>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 font-display">
+              EBSCO Information Services
+            </h1>
+            <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-8">
+              A worldwide leader in providing information access and management
+              solutions through print and electronic journal subscription
+              services and research databases.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <a
+                href="http://www.ebscohost.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-8 py-3 bg-white text-blue-900 rounded-full font-bold hover:bg-blue-50 transition-all transform hover:scale-105 shadow-lg"
+              >
+                <ExternalLink size={20} className="mr-2" />
+                Visit Website
+              </a>
+              <a
+                href="mailto:info@ACML-egypt.com"
+                className="inline-flex items-center px-8 py-3 bg-emerald-600 text-white rounded-full font-bold hover:bg-emerald-700 transition-all transform hover:scale-105 shadow-lg border border-emerald-500"
+              >
+                Request Free Trial
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left Column - Main Info */}
-          <div className="lg:col-span-1 space-y-8">
-            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-8 border border-gray-100 dark:border-gray-700">
-              <div className="flex items-center mb-6">
-                <div className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-xl mr-4">
-                  <Globe
-                    className="text-blue-600 dark:text-blue-400"
-                    size={24}
-                  />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                  About EBSCO
-                </h3>
-              </div>
-              <div className="prose prose-lg dark:prose-invert max-w-none text-gray-600 dark:text-gray-300">
-                <div className="mb-6 rounded-xl overflow-hidden shadow-md">
-                  <img
-                    src="/images/ebsco_2.jpg"
-                    alt="Ebsco Services"
-                    className="w-full h-auto object-cover"
-                    onError={(e) => (e.currentTarget.style.display = "none")}
-                  />
-                </div>
-                <p>
-                  EBSCO Information Services is a worldwide leader in providing
-                  information access and management solutions through print and
-                  electronic journal subscription services, research database
-                  development and production, online access to more than 100
-                  databases and thousands of e-journals, and e-commerce book
-                  procurement. EBSCO has served the library and business
-                  communities for more than 60 years.
-                </p>
-                <p>
-                  EBSCO Information Services' parent company, EBSCO Industries
-                  Inc., is a diversified, financially stable company with
-                  manufacturing and sales offices around the world. EBSCO's
-                  International Headquarters in Birmingham, Ala., U.S.A.
-                  provides support for all EBSCO operations.
-                </p>
-                <div className="mt-6 bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
-                  <h4 className="font-bold text-blue-800 dark:text-blue-200 mb-2">
-                    EBSCO Publishing
-                  </h4>
-                  <p className="text-sm">
-                    Unmatched content, usability and service make EBSCOhost®
-                    databases the most-used, for-fee, online information
-                    resources for tens of thousands of institutions worldwide.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Column - Databases List */}
-          <div className="lg:col-span-2 space-y-8">
-            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-8 border border-gray-100 dark:border-gray-700">
-              <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
-                <div className="flex items-center">
-                  <div className="p-3 bg-emerald-100 dark:bg-emerald-900/30 rounded-xl mr-4">
-                    <Database
-                      className="text-emerald-600 dark:text-emerald-400"
+      <div className="mr-20 ml-20">
+        <div className="container mx-auto px-4 py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Left Column - Main Info */}
+            <div className="lg:col-span-1 space-y-8">
+              <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-8 border border-gray-100 dark:border-gray-700">
+                <div className="flex items-center mb-6">
+                  <div className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-xl mr-4">
+                    <Globe
+                      className="text-blue-600 dark:text-blue-400"
                       size={24}
                     />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                    Bibliographic & Full Text Databases
+                    About EBSCO
                   </h3>
                 </div>
-
-                {/* Search Input */}
-                <div className="relative w-full md:w-64">
-                  <input
-                    type="text"
-                    placeholder="Search databases..."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full pl-10 pr-4 py-2 border border-gray-200 dark:border-gray-700 rounded-lg bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition-all"
-                  />
-                  <Search
-                    className="absolute left-3 top-2.5 text-gray-400"
-                    size={18}
-                  />
+                <div className="prose prose-lg dark:prose-invert max-w-none text-gray-600 dark:text-gray-300">
+                  <div className="mb-6 rounded-xl overflow-hidden shadow-md">
+                    <img
+                      src="/images/ebsco_2.jpg"
+                      alt="Ebsco Services"
+                      className="w-full h-auto object-cover"
+                      onError={(e) => (e.currentTarget.style.display = "none")}
+                    />
+                  </div>
+                  <p>
+                    EBSCO Information Services is a worldwide leader in
+                    providing information access and management solutions
+                    through print and electronic journal subscription services,
+                    research database development and production, online access
+                    to more than 100 databases and thousands of e-journals, and
+                    e-commerce book procurement. EBSCO has served the library
+                    and business communities for more than 60 years.
+                  </p>
+                  <p>
+                    EBSCO Information Services' parent company, EBSCO Industries
+                    Inc., is a diversified, financially stable company with
+                    manufacturing and sales offices around the world. EBSCO's
+                    International Headquarters in Birmingham, Ala., U.S.A.
+                    provides support for all EBSCO operations.
+                  </p>
+                  <div className="mt-6 bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                    <h4 className="font-bold text-blue-800 dark:text-blue-200 mb-2">
+                      EBSCO Publishing
+                    </h4>
+                    <p className="text-sm">
+                      Unmatched content, usability and service make EBSCOhost®
+                      databases the most-used, for-fee, online information
+                      resources for tens of thousands of institutions worldwide.
+                    </p>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 overflow-y-auto max-h-[800px] pr-2 scrollbar-thin scrollbar-thumb-gray-200 dark:scrollbar-thumb-gray-700">
-                {filteredDatabases.length > 0 ? (
-                  filteredDatabases.map((db, index) => (
-                    <a
-                      key={index}
-                      href={db.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center p-3 rounded-lg border border-gray-100 dark:border-gray-700 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 hover:border-emerald-200 dark:hover:border-emerald-800 transition-all group"
-                    >
-                      <ExternalLink
-                        size={16}
-                        className="text-gray-400 group-hover:text-emerald-500 mr-3 flex-shrink-0"
+            {/* Right Column - Databases List */}
+            <div className="lg:col-span-2 space-y-8">
+              <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-8 border border-gray-100 dark:border-gray-700">
+                <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
+                  <div className="flex items-center">
+                    <div className="p-3 bg-emerald-100 dark:bg-emerald-900/30 rounded-xl mr-4">
+                      <Database
+                        className="text-emerald-600 dark:text-emerald-400"
+                        size={24}
                       />
-                      <span className="text-gray-700 dark:text-gray-200 group-hover:text-emerald-700 dark:group-hover:text-emerald-300 font-medium text-sm">
-                        {db.name}
-                      </span>
-                    </a>
-                  ))
-                ) : (
-                  <div className="col-span-full text-center py-8 text-gray-500">
-                    No databases found matching "{searchTerm}"
+                    </div>
+                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+                      Bibliographic & Full Text Databases
+                    </h3>
                   </div>
-                )}
-              </div>
-              <div className="mt-8 text-center bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
-                <a
-                  href="http://ejournals.ebsco.com/info/ejsTitles.asp?"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-emerald-600 dark:text-emerald-400 font-bold hover:underline inline-flex items-center"
-                >
-                  View Electronic Journals List{" "}
-                  <ExternalLink size={14} className="ml-1" />
-                </a>
+
+                  {/* Search Input */}
+                  <div className="relative w-full md:w-64">
+                    <input
+                      type="text"
+                      placeholder="Search databases..."
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      className="w-full pl-10 pr-4 py-2 border border-gray-200 dark:border-gray-700 rounded-lg bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition-all"
+                    />
+                    <Search
+                      className="absolute left-3 top-2.5 text-gray-400"
+                      size={18}
+                    />
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 overflow-y-auto max-h-[800px] pr-2 scrollbar-thin scrollbar-thumb-gray-200 dark:scrollbar-thumb-gray-700">
+                  {filteredDatabases.length > 0 ? (
+                    filteredDatabases.map((db, index) => (
+                      <a
+                        key={index}
+                        href={db.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center p-3 rounded-lg border border-gray-100 dark:border-gray-700 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 hover:border-emerald-200 dark:hover:border-emerald-800 transition-all group"
+                      >
+                        <ExternalLink
+                          size={16}
+                          className="text-gray-400 group-hover:text-emerald-500 mr-3 flex-shrink-0"
+                        />
+                        <span className="text-gray-700 dark:text-gray-200 group-hover:text-emerald-700 dark:group-hover:text-emerald-300 font-medium text-sm">
+                          {db.name}
+                        </span>
+                      </a>
+                    ))
+                  ) : (
+                    <div className="col-span-full text-center py-8 text-gray-500">
+                      No databases found matching "{searchTerm}"
+                    </div>
+                  )}
+                </div>
+                <div className="mt-8 text-center bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+                  <a
+                    href="http://ejournals.ebsco.com/info/ejsTitles.asp?"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-600 dark:text-emerald-400 font-bold hover:underline inline-flex items-center"
+                  >
+                    View Electronic Journals List{" "}
+                    <ExternalLink size={14} className="ml-1" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

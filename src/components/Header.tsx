@@ -153,42 +153,42 @@ export default function Header() {
       isWide: true,
       megaMenu: [
         {
-          title: "Professional Services",
+          title: "Collections & Resources",
           links: [
             {
-              label: "Library Consultancy",
+              label: "Books & Periodicals",
               path: "/services",
-              description: "Expert guidance for modern library management.",
+              description: "Academic books, journals, and periodicals.",
             },
             {
-              label: "Digital Content",
-              path: "/services",
-              description: "Comprehensive digital solutions and resources.",
+              label: "Databases & Full-Text Access",
+              path: "/publishers/ebsco-databases",
+              description: "Comprehensive databases and resources.",
             },
             {
-              label: "Building & Furniture",
-              path: "/services",
-              description: "Design and equipment for optimal learning spaces.",
+              label: "Electronic Journals",
+              path: "/publishers/acm#publications-services",
+              description: "High-impact peer-reviewed journals.",
             },
             {
-              label: "Training Programs",
-              path: "/services",
-              description: "Professional development and skill enhancement.",
+              label: "Digital Media (PressReader)",
+              path: "/publishers/pressreader",
+              description: "Digital content and multimedia resources.",
             },
           ],
         },
         {
-          title: "Specialized",
+          title: "Infrastructure & Consulting",
           links: [
             {
-              label: "Chemical Management",
-              path: "/services",
-              description: "Safe and compliant chemical handling solutions.",
+              label: "Library Furniture",
+              path: "/publishers/demco",
+              description: "Modern furniture for learning spaces.",
             },
             {
-              label: "Museum Restoration",
-              path: "/services",
-              description: "Preserving heritage with advanced techniques.",
+              label: "ICT Consultancy Services",
+              path: "/about/team",
+              description: "Expert ICT strategy and planning.",
             },
           ],
         },
@@ -244,6 +244,12 @@ export default function Header() {
     return location.pathname.startsWith(itemPath);
   };
 
+  const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
+
+  const toggleMobileSubmenu = (id: string) => {
+    setMobileExpanded(mobileExpanded === id ? null : id);
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -254,15 +260,15 @@ export default function Header() {
       onMouseLeave={() => setActiveDropdown(null)}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-24">
+        <div className="flex items-center justify-between lg:justify-center lg:gap-40 h-24">
           {/* Logo */}
           <Link
             to="/"
             className="flex items-center cursor-pointer group"
             onClick={onLinkClick}
           >
-            <AnimatedLogo className="h-24 w-24" />
-            <div className="ms-3 text-sm text-gray-600 dark:text-gray-400 hidden md:block border-l border-gray-300 dark:border-gray-700 pl-3">
+            <AnimatedLogo className="h-20 w-36" />
+            <div className="ms-3 text-sm font-bold text-gray-600 dark:text-gray-100 hidden md:block border-l border-gray-300 dark:border-gray-700 pl-3">
               {t("brandSubtitle")}
             </div>
           </Link>
@@ -278,14 +284,14 @@ export default function Header() {
                 <Link
                   to={item.path}
                   onClick={onLinkClick}
-                  className={`flex items-center gap-1 text-sm font-medium transition-colors duration-200 ${
+                  className={`flex items-center gap-1 text-sm font-bold transition-colors duration-200 ${
                     (
                       activeDropdown
                         ? activeDropdown === item.id
                         : isActive(item.path)
                     )
                       ? "text-emerald-600 dark:text-emerald-500"
-                      : "text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400"
+                      : "text-gray-700 dark:text-gray-100 hover:text-emerald-600 dark:hover:text-emerald-400"
                   }`}
                 >
                   {item.label}
@@ -321,7 +327,7 @@ export default function Header() {
                             <h4
                               className={`${
                                 item.isWide
-                                  ? "text-lg font-semibold text-gray-900 dark:text-white border-l-4 border-emerald-500 pl-4 py-0.5 leading-none"
+                                  ? "text-lg font-bold text-gray-900 dark:text-white border-l-4 border-emerald-500 pl-4 py-0.5 leading-none"
                                   : "text-emerald-600 dark:text-emerald-400 font-bold text-xs uppercase tracking-wider pb-2 border-b border-gray-100 dark:border-gray-700"
                               }`}
                             >
@@ -336,19 +342,19 @@ export default function Header() {
                                       e.stopPropagation();
                                       onLinkClick();
                                     }}
-                                    className={`text-sm text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-all duration-200 text-left block w-full group flex items-start flex-col ${item.isWide ? "pl-5" : ""}`}
+                                    className={`text-sm text-gray-600 dark:text-gray-200 hover:text-emerald-600 dark:hover:text-emerald-400 transition-all duration-200 text-left block w-full group flex items-start flex-col ${item.isWide ? "pl-5" : ""}`}
                                   >
                                     <span
                                       className={
                                         item.isWide
-                                          ? "font-medium block mb-1"
-                                          : ""
+                                          ? "font-bold block mb-1"
+                                          : "font-bold"
                                       }
                                     >
                                       {link.label}
                                     </span>
                                     {item.isWide && (
-                                      <span className="text-xs text-gray-400 dark:text-gray-500 font-normal leading-relaxed overflow-hidden text-ellipsis line-clamp-2">
+                                      <span className="text-xs text-gray-400 dark:text-gray-400 font-bold leading-relaxed overflow-hidden text-ellipsis line-clamp-2">
                                         {link.description ||
                                           `Learn more about ${link.label.toLowerCase()}`}
                                       </span>
@@ -395,23 +401,38 @@ export default function Header() {
                 key={item.id}
                 className="border-b border-gray-100 dark:border-gray-800 last:border-0"
               >
-                <Link
-                  to={item.path}
-                  onClick={onLinkClick}
-                  className={`w-full text-left py-3 px-2 text-base font-medium flex items-center justify-between ${
-                    isActive(item.path)
-                      ? "text-emerald-600 dark:text-emerald-500"
-                      : "text-gray-700 dark:text-gray-300"
-                  }`}
-                >
-                  {item.label}
+                <div className="flex items-center justify-between w-full">
+                  <Link
+                    to={item.path}
+                    onClick={onLinkClick}
+                    className={`flex-grow text-left py-3 px-2 text-base font-bold ${
+                      (isActive(item.path) && !mobileExpanded) ||
+                      mobileExpanded === item.id
+                        ? "text-emerald-600 dark:text-emerald-500"
+                        : "text-gray-700 dark:text-gray-100"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
                   {item.hasDropdown && (
-                    <ChevronDown size={16} className="text-gray-400" />
+                    <button
+                      onClick={() => toggleMobileSubmenu(item.id)}
+                      className={`p-3 transition-colors ${
+                        mobileExpanded === item.id
+                          ? "text-emerald-600 dark:text-emerald-500"
+                          : "text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400"
+                      }`}
+                    >
+                      <ChevronDown
+                        size={16}
+                        className={`transition-transform duration-200 ${mobileExpanded === item.id ? "rotate-180" : ""}`}
+                      />
+                    </button>
                   )}
-                </Link>
+                </div>
 
-                {item.hasDropdown && (
-                  <div className="bg-gray-50 dark:bg-gray-800/50 rounded-lg mb-2 px-4 py-2 space-y-4">
+                {item.hasDropdown && mobileExpanded === item.id && (
+                  <div className="bg-gray-50 dark:bg-gray-800/50 rounded-lg mb-2 px-4 py-2 space-y-4 animate-in fade-in slide-in-from-top-1 duration-200">
                     {item.megaMenu?.map((section, idx) => (
                       <div key={idx}>
                         <h5 className="text-xs font-bold text-emerald-600 dark:text-emerald-500 uppercase tracking-widest mb-2 mt-2">
@@ -423,7 +444,7 @@ export default function Header() {
                               key={linkIdx}
                               to={link.path}
                               onClick={onLinkClick}
-                              className="text-left py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 block"
+                              className="text-left py-2 text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 block"
                             >
                               {link.label}
                             </Link>
@@ -437,7 +458,7 @@ export default function Header() {
             ))}
 
             <div className="mt-6 flex justify-between items-center px-2 pt-4 border-t border-gray-100 dark:border-gray-800">
-              <LanguageSwitcher />
+              <LanguageSwitcher direction="down" align="start" />
               <ThemeToggle />
             </div>
           </nav>

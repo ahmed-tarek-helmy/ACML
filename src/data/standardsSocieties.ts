@@ -24,7 +24,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/abma/index.aspx"
   },
   {
-    "name": "About IHS Consulting : Consulting & Advisory Services",
+    "name": "About Accuris Consulting : Consulting & Advisory Services",
     "url": "http://www.ihs.com/products/consulting/about.aspx"
   },
   {
@@ -72,35 +72,35 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/sbac-ads/index.aspx"
   },
   {
-    "name": "Advanced Country Analysis and Forecast : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Advanced Country Analysis and Forecast : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/advanced-forecasting.aspx"
   },
   {
-    "name": "Advertise in IHS Fairplay Magazines : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Advertise in Accuris Fairplay Magazines : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/magazines/index.aspx"
   },
   {
-    "name": "Advertise on Dredging and Port Construction : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Advertise on Dredging and Port Construction : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/magazines/dpc.aspx"
   },
   {
-    "name": "Advertise on Fairplay : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Advertise on Fairplay : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/magazines/fairplay.aspx"
   },
   {
-    "name": "Advertise on Ports and Harbors : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Advertise on Ports and Harbors : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/magazines/ports-harbors.aspx"
   },
   {
-    "name": "Advertise on Safety at Sea : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Advertise on Safety at Sea : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/magazines/safety-at-sea.aspx"
   },
   {
-    "name": "Advertise with IHS Fairplay : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Advertise with Accuris Fairplay : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/index.aspx"
   },
   {
-    "name": "Advisory Research Services: Energy Strategy : IHS CERA: Energy Strategy",
+    "name": "Advisory Research Services: Energy Strategy : Accuris CERA: Energy Strategy",
     "url": "http://www.ihs.com/products/cera/energy-research/index.aspx"
   },
   {
@@ -112,7 +112,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/aenor/index.aspx"
   },
   {
-    "name": "Aero-Engines : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Aero-Engines : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/air/aero-engines.aspx"
   },
   {
@@ -128,11 +128,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/agma/index.aspx"
   },
   {
-    "name": "Agriculture Markets and Analysis & Forecasts : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Agriculture Markets and Analysis & Forecasts : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/agriculture/index.aspx"
   },
   {
-    "name": "Agriculture Pricing and Purchasing Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Agriculture Pricing and Purchasing Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/agriculture/perspectives.aspx"
   },
   {
@@ -160,35 +160,35 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/aiim/index.aspx"
   },
   {
-    "name": "Air Traffic Control : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Air Traffic Control : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/air-traffic-control.aspx"
   },
   {
-    "name": "Aircraft Component Manufacturers : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Aircraft Component Manufacturers : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/industry/aircraft-component-manufacturers.aspx"
   },
   {
-    "name": "Aircraft Upgrades : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Aircraft Upgrades : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/air/aircraft-upgrades.aspx"
   },
   {
-    "name": "Air-Launched Weapons : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Air-Launched Weapons : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/air/air-launched-weapons.aspx"
   },
   {
-    "name": "Airport Review : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Airport Review : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/airport-review.aspx"
   },
   {
-    "name": "Airports and Handling Agents : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Airports and Handling Agents : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/airports-handling-agents.aspx"
   },
   {
-    "name": "Airports, Equipment & Services : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Airports, Equipment & Services : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/airports-equipment-services.aspx"
   },
   {
-    "name": "AISLive : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "AISLive : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/ship-movement-tracking/ais-live.aspx"
   },
   {
@@ -196,7 +196,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/ali/index.aspx"
   },
   {
-    "name": "All the World’s Aircraft : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "All the World’s Aircraft : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/air/all-the-worlds-aircraft.aspx"
   },
   {
@@ -212,11 +212,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/amca/index.aspx"
   },
   {
-    "name": "Ammunition Handbook : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Ammunition Handbook : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/ammunition-handbook.aspx"
   },
   {
-    "name": "Amphibious and Special Forces : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Amphibious and Special Forces : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/military-capabilities/amphibious-special-forces.aspx"
   },
   {
@@ -228,7 +228,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/analysis-software/index.aspx"
   },
   {
-    "name": "Analytics & Forecasting: Energy Strategy : IHS CERA: Energy Strategy",
+    "name": "Analytics & Forecasting: Energy Strategy : Accuris CERA: Energy Strategy",
     "url": "http://www.ihs.com/products/cera/energy-forecasting/index.aspx"
   },
   {
@@ -252,11 +252,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/arinc/index.aspx"
   },
   {
-    "name": "Armour and Artillery : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Armour and Artillery : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/armour-artillery.aspx"
   },
   {
-    "name": "Armour and Artillery Upgrades : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Armour and Artillery Upgrades : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/armour-artillery-upgrades.aspx"
   },
   {
@@ -324,15 +324,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/atis/index.aspx"
   },
   {
-    "name": "Automotive Forecasting: IHS Automotive",
+    "name": "Automotive Forecasting: Accuris Automotive",
     "url": "http://www.ihs.com/products/automotive/index.aspx"
   },
   {
-    "name": "Automotive Industry Headlines and Analysis : Automotive Forecasting: IHS Automotive",
+    "name": "Automotive Industry Headlines and Analysis : Automotive Forecasting: Accuris Automotive",
     "url": "http://www.ihs.com/products/automotive/industry-news-analysis/index.aspx"
   },
   {
-    "name": "Automotive: Advisory Services : Automotive Forecasting: IHS Automotive",
+    "name": "Automotive: Advisory Services : Automotive Forecasting: Accuris Automotive",
     "url": "http://www.ihs.com/samples/rene-delete/advisory-services.aspx"
   },
   {
@@ -340,7 +340,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/regulations/av-data.aspx"
   },
   {
-    "name": "Avionics : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Avionics : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/air/avionics.aspx"
   },
   {
@@ -352,7 +352,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/awwa/index.aspx"
   },
   {
-    "name": "Banking Risk Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Banking Risk Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/banking-risk.aspx"
   },
   {
@@ -364,15 +364,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/basins-data/monitors.aspx"
   },
   {
-    "name": "Beat Officer's Companion : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Beat Officer's Companion : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/law-enforcement-handbooks/policing-beat-officers-companion.aspx"
   },
   {
-    "name": "Bespoke Advertising : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Bespoke Advertising : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/bespoke/index.aspx"
   },
   {
-    "name": "Bespoke Maritime Data Services : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Bespoke Maritime Data Services : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/data/index.aspx"
   },
   {
@@ -400,35 +400,35 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/bsria/index.aspx"
   },
   {
-    "name": "C4I Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "C4I Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/systems/c4i.aspx"
   },
   {
-    "name": "Canadian Economic Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Canadian Economic Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/canada-economic-forecasts.aspx"
   },
   {
-    "name": "Canadian Oil Sands : IHS CERA: Energy Strategy",
+    "name": "Canadian Oil Sands : Accuris CERA: Energy Strategy",
     "url": "http://www.ihs.com/products/cera/energy-industry/oil-sands-dialogue.aspx"
   },
   {
-    "name": "Canadian Provincial Construction : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Canadian Provincial Construction : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/construction/canada-provincial.aspx"
   },
   {
-    "name": "Capital Costs Analysis Forum - Downstream : IHS CERA: Capital Cost",
+    "name": "Capital Costs Analysis Forum - Downstream : Accuris CERA: Capital Cost",
     "url": "http://www.ihs.com/products/energy-capital-costs-analysis/downstream.aspx"
   },
   {
-    "name": "Capital Costs Analysis Forum - European Power : IHS CERA: Capital Cost",
+    "name": "Capital Costs Analysis Forum - European Power : Accuris CERA: Capital Cost",
     "url": "http://www.ihs.com/products/energy-capital-costs-analysis/european-power.aspx"
   },
   {
-    "name": "Capital Costs Analysis Forum - North American Power : IHS CERA: Capital Cost",
+    "name": "Capital Costs Analysis Forum - North American Power : Accuris CERA: Capital Cost",
     "url": "http://www.ihs.com/products/energy-capital-costs-analysis/north-american-power.aspx"
   },
   {
-    "name": "Capital Costs Analysis Forum - Upstream : IHS CERA: Capital Cost",
+    "name": "Capital Costs Analysis Forum - Upstream : Accuris CERA: Capital Cost",
     "url": "http://www.ihs.com/products/energy-capital-costs-analysis/upstream.aspx"
   },
   {
@@ -436,11 +436,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/canadian-aviation-regulations/index.aspx"
   },
   {
-    "name": "Cardiovascular Therapeutic Markets Insight ebook : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Cardiovascular Therapeutic Markets Insight ebook : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/cardiovascular-therapeutic-markets-insight-ebook.aspx"
   },
   {
-    "name": "CBRN Response Handbook : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "CBRN Response Handbook : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/cbrn-response-handbook.aspx"
   },
   {
@@ -468,15 +468,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/cgsb/index.aspx"
   },
   {
-    "name": "Chemical, Biological, Radiological & Nuclear Assessments Intelligence Centre : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Chemical, Biological, Radiological & Nuclear Assessments Intelligence Centre : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/cbrn-intelligence-centre.aspx"
   },
   {
-    "name": "China Coal Monthly : Coal Information & Insight: IHS McCloskey",
+    "name": "China Coal Monthly : Coal Information & Insight: Accuris McCloskey",
     "url": "http://www.ihs.com/products/coal-information/china.aspx"
   },
   {
-    "name": "China Regional Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "China Regional Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/china-economic-forecasts.aspx"
   },
   {
@@ -496,7 +496,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/ciria/index.aspx"
   },
   {
-    "name": "Classified Advertising : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Classified Advertising : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/classified.aspx"
   },
   {
@@ -504,23 +504,23 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/surface-data/coal.aspx"
   },
   {
-    "name": "Coal Information & Insight: IHS McCloskey",
+    "name": "Coal Information & Insight: Accuris McCloskey",
     "url": "http://www.ihs.com/products/coal-information/index.aspx"
   },
   {
-    "name": "Coal Report Online : Coal Information & Insight: IHS McCloskey",
+    "name": "Coal Report Online : Coal Information & Insight: Accuris McCloskey",
     "url": "http://www.ihs.com/products/coal-information/report.aspx"
   },
   {
-    "name": "Coal Reports & Publications : IHS CERA: Energy Strategy",
+    "name": "Coal Reports & Publications : Accuris CERA: Energy Strategy",
     "url": "http://www.ihs.com/products/cera/coal-reports.aspx"
   },
   {
-    "name": "Coal Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Coal Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/energy/coal.aspx"
   },
   {
-    "name": "Coal UK : Coal Information & Insight: IHS McCloskey",
+    "name": "Coal UK : Coal Information & Insight: Accuris McCloskey",
     "url": "http://www.ihs.com/products/coal-information/uk.aspx"
   },
   {
@@ -528,11 +528,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/midstream-data/commercial-facilities.aspx"
   },
   {
-    "name": "Commodity Price Watch : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Commodity Price Watch : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/agriculture/commodity-prices.aspx"
   },
   {
-    "name": "Company Valuation Research : IHS Herold: Energy Company & Transaction Valuations",
+    "name": "Company Valuation Research : Accuris Herold: Energy Company & Transaction Valuations",
     "url": "http://www.ihs.com/products/herold/energy-company-research/index.aspx"
   },
   {
@@ -540,11 +540,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/product-design-sourcing/component-supplier-data/index.aspx"
   },
   {
-    "name": "Component Forecasts and Analysis : Automotive Forecasting: IHS Automotive",
+    "name": "Component Forecasts and Analysis : Automotive Forecasting: Accuris Automotive",
     "url": "http://www.ihs.com/products/automotive/forecasts.aspx"
   },
   {
-    "name": "Component Sourcing and Technology Analysis : Automotive Forecasting: IHS Automotive",
+    "name": "Component Sourcing and Technology Analysis : Automotive Forecasting: Accuris Automotive",
     "url": "http://www.ihs.com/products/automotive/component-sourcing/index.aspx"
   },
   {
@@ -552,7 +552,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/concrete-society/index.aspx"
   },
   {
-    "name": "Construction Custom Solutions : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Construction Custom Solutions : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/construction/custom-solutions.aspx"
   },
   {
@@ -560,15 +560,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/consulting/index.aspx"
   },
   {
-    "name": "Consumer Credit Watch : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Consumer Credit Watch : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/financial/consumer-credit.aspx"
   },
   {
-    "name": "Consumer Goods : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Consumer Goods : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/consumer-goods/index.aspx"
   },
   {
-    "name": "Consumer Goods & Retail Custom Solutions : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Consumer Goods & Retail Custom Solutions : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/consumer-goods/custom-solutions.aspx"
   },
   {
@@ -576,23 +576,23 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/ehs-sustainability/corporate-responsibility/index.aspx"
   },
   {
-    "name": "Country Intelligence: Economic Forecasting : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Country Intelligence: Economic Forecasting : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/index.aspx"
   },
   {
-    "name": "Country Risk Analyst : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Country Risk Analyst : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/risk-analyst.aspx"
   },
   {
-    "name": "Country Risk Assessments : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Country Risk Assessments : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/country-risk/assessments.aspx"
   },
   {
-    "name": "Country Risk Daily Report : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Country Risk Daily Report : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/news/country-risk-daily.aspx"
   },
   {
-    "name": "Country Risk Intelligence Centre Module : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Country Risk Intelligence Centre Module : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/country-risk/index.aspx"
   },
   {
@@ -632,7 +632,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/news/geps-daily-alert.aspx"
   },
   {
-    "name": "Data Access Options : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Data Access Options : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/financial/data-access.aspx"
   },
   {
@@ -648,63 +648,63 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/well-data/index.aspx"
   },
   {
-    "name": "Defense Budgets : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense Budgets : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/budgets.aspx"
   },
   {
-    "name": "Defense Equipment & Technology Intelligence Centre : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense Equipment & Technology Intelligence Centre : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/equipment-technology-intelligence-centre.aspx"
   },
   {
-    "name": "Defense Equipment & Technology Solutions : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense Equipment & Technology Solutions : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/index.aspx"
   },
   {
-    "name": "Defense Industry & Market Intelligence Centre : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense Industry & Market Intelligence Centre : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/industry-markets-intelligence-centre.aspx"
   },
   {
-    "name": "Defense Industry News Product : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense Industry News Product : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/news/defence-industry.aspx"
   },
   {
-    "name": "Defense Industry Solutions : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense Industry Solutions : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/index.aspx"
   },
   {
-    "name": "Defense Procurement Intelligence Centre : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense Procurement Intelligence Centre : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/procurement-intelligence-centre.aspx"
   },
   {
-    "name": "Defense Sector Budgets : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense Sector Budgets : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/sector-budgets.aspx"
   },
   {
-    "name": "Defense Weekly : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense Weekly : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/news/defence-weekly.aspx"
   },
   {
-    "name": "Defense: Air & Space Intelligence Centre Module : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense: Air & Space Intelligence Centre Module : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/air/index.aspx"
   },
   {
-    "name": "Defense: Industry Intelligence Centre Module : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense: Industry Intelligence Centre Module : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/industry/index.aspx"
   },
   {
-    "name": "Defense: Land Intelligence Centre Module : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense: Land Intelligence Centre Module : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/index.aspx"
   },
   {
-    "name": "Defense: News Intelligence Centre Module : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense: News Intelligence Centre Module : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/news/index.aspx"
   },
   {
-    "name": "Defense: Sea Intelligence Centre Module : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense: Sea Intelligence Centre Module : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/naval/index.aspx"
   },
   {
-    "name": "Defense: Systems Intelligence Centre Module : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Defense: Systems Intelligence Centre Module : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/systems/index.aspx"
   },
   {
@@ -728,7 +728,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/din/index.aspx"
   },
   {
-    "name": "Directory Advertising : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Directory Advertising : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/directory.aspx"
   },
   {
@@ -772,7 +772,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/danish/index.aspx"
   },
   {
-    "name": "DS Forecasting : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "DS Forecasting : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/market-forecasting/index.aspx"
   },
   {
@@ -788,7 +788,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/eca/index.aspx"
   },
   {
-    "name": "Economic Analytics : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Economic Analytics : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/financial/economic-analytics.aspx"
   },
   {
@@ -824,7 +824,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/samples/barb/eee/index.aspx"
   },
   {
-    "name": "Electronic Mission Aircraft : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Electronic Mission Aircraft : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/air/electronic-mission-aircraft.aspx"
   },
   {
@@ -832,7 +832,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/collections/electronics-telecommunications/index.aspx"
   },
   {
-    "name": "Electro-Optic Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Electro-Optic Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/systems/electro-optic.aspx"
   },
   {
@@ -852,11 +852,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/data-access/energy-web-services-coming-soon.aspx"
   },
   {
-    "name": "Energy Data : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Energy Data : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/energy/data.aspx"
   },
   {
-    "name": "Energy Industry Analysis Forecasts & Data : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Energy Industry Analysis Forecasts & Data : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/energy/index.aspx"
   },
   {
@@ -868,7 +868,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/data-access/energy-map-services.aspx"
   },
   {
-    "name": "Energy News Analysis Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Energy News Analysis Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/energy/news.aspx"
   },
   {
@@ -876,15 +876,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/news/energy-news-on-demand.aspx"
   },
   {
-    "name": "Energy Outlook Analysis : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Energy Outlook Analysis : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/energy/outlook.aspx"
   },
   {
-    "name": "Energy Trading : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Energy Trading : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/energy/index.aspx"
   },
   {
-    "name": "EnergyView : IHS CERA: Energy Strategy",
+    "name": "EnergyView : Accuris CERA: Energy Strategy",
     "url": "http://www.ihs.com/products/cera/energy-research/energyview.aspx"
   },
   {
@@ -912,15 +912,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/eu-dir/index.aspx"
   },
   {
-    "name": "EViews : IHS Global Insight: Country & Industry Forecasting",
+    "name": "EViews : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/eviews.aspx"
   },
   {
-    "name": "Executive Strategy Council : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Executive Strategy Council : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/executive-strategy.aspx"
   },
   {
-    "name": "Explosive Ordnance Disposal : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Explosive Ordnance Disposal : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/explosive-ordinance-disposal.aspx"
   },
   {
@@ -948,11 +948,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/analysis-software/fielddirect.aspx"
   },
   {
-    "name": "Fighting Ships : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Fighting Ships : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/naval/fighting-ships.aspx"
   },
   {
-    "name": "Finance & Investments Analysis and Forecasts : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Finance & Investments Analysis and Forecasts : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/financial/index.aspx"
   },
   {
@@ -972,11 +972,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/fpa/index.aspx"
   },
   {
-    "name": "Free Samples: World Markets Healthcare Forecasting Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Free Samples: World Markets Healthcare Forecasting Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/wmhfs-samples.aspx"
   },
   {
-    "name": "Free Samples: World Markets Telecoms : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Free Samples: World Markets Telecoms : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/telecom/wmt-samples.aspx"
   },
   {
@@ -1008,27 +1008,27 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/analysis-software/geosyn.aspx"
   },
   {
-    "name": "Global Commerce & Transport Analysis and Forecast Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Global Commerce & Transport Analysis and Forecast Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/commerce-transport/index.aspx"
   },
   {
-    "name": "Global Construction : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Global Construction : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/construction/global.aspx"
   },
   {
-    "name": "Global Consumer Markets Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Global Consumer Markets Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/consumer-goods/global-market.aspx"
   },
   {
-    "name": "Global Crops Cost of Production Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Global Crops Cost of Production Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/agriculture/crop-production-cost.aspx"
   },
   {
-    "name": "Global Crops Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Global Crops Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/agriculture/crop-forecasts.aspx"
   },
   {
-    "name": "Global Economic Data : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Global Economic Data : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/financial/global-economic-data.aspx"
   },
   {
@@ -1040,15 +1040,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/midstream-data/global-gas-storage.aspx"
   },
   {
-    "name": "Global Livestock Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Global Livestock Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/agriculture/livestock-forecast.aspx"
   },
   {
-    "name": "Global Maritime Statistics & Forecasting Reports : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Global Maritime Statistics & Forecasting Reports : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/statistics-forecasts/index.aspx"
   },
   {
-    "name": "Global Risk Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Global Risk Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/global-risk.aspx"
   },
   {
@@ -1100,11 +1100,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/ehs-sustainability/health-safety-compliance/index.aspx"
   },
   {
-    "name": "Healthcare & Pharma Industry Analysis : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Healthcare & Pharma Industry Analysis : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/index.aspx"
   },
   {
-    "name": "Helicopter Markets and Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Helicopter Markets and Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/industry/helicopter-markets-systems.aspx"
   },
   {
@@ -1112,15 +1112,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/hydraulic-institute/index.aspx"
   },
   {
-    "name": "High-Speed Marine Transportation : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "High-Speed Marine Transportation : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/naval/high-speed-marine-transportation.aspx"
   },
   {
-    "name": "Homeland Security Review : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Homeland Security Review : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/news/homeland-security-review.aspx"
   },
   {
-    "name": "Horizon Research : IHS Herold: Energy Company & Transaction Valuations",
+    "name": "Horizon Research : Accuris Herold: Energy Company & Transaction Valuations",
     "url": "http://www.ihs.com/products/herold/small-cap-ep-companies.aspx"
   },
   {
@@ -1156,91 +1156,91 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/iest/index.aspx"
   },
   {
-    "name": "IHS + ERAI Solution : Product Design, Sourcing & Logistics",
+    "name": "Accuris + ERAI Solution : Product Design, Sourcing & Logistics",
     "url": "http://www.ihs.com/products/product-design-sourcing/component-compliance/erai.aspx"
   },
   {
-    "name": "IHS Automotive Scenarios Advisory Service : IHS Global Scenarios",
+    "name": "Accuris Automotive Scenarios Advisory Service : Accuris Global Scenarios",
     "url": "http://www.ihs.com/industry/automotive/index.aspx"
   },
   {
-    "name": "IHS CERA Energy Scenarios Advisory Service : IHS Global Scenarios",
+    "name": "Accuris CERA Energy Scenarios Advisory Service : Accuris Global Scenarios",
     "url": "http://www.ihs.com/products/global-scenarios/energy.aspx"
   },
   {
-    "name": "IHS CERA: Capital Cost",
+    "name": "Accuris CERA: Capital Cost",
     "url": "http://www.ihs.com/products/energy-capital-costs-analysis/index.aspx"
   },
   {
-    "name": "IHS CERA: Energy Strategy",
+    "name": "Accuris CERA: Energy Strategy",
     "url": "http://www.ihs.com/products/cera/index.aspx"
   },
   {
-    "name": "IHS Data Manager : Energy Information, Software & Solutions",
+    "name": "Accuris Data Manager : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/data-access/digital-logs.aspx"
   },
   {
-    "name": "IHS Enerdeq : Energy Information, Software & Solutions",
+    "name": "Accuris Enerdeq : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/data-access/enerdeq/index.aspx"
   },
   {
-    "name": "IHS Fields & Discoveries Data : Energy Information, Software & Solutions",
+    "name": "Accuris Fields & Discoveries Data : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/field-reservoir-data/discoveries.aspx"
   },
   {
-    "name": "IHS Global Insight Accolades : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Accuris Global Insight Accolades : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/accolades.aspx"
   },
   {
-    "name": "IHS Global Insight: Country & Industry Forecasting",
+    "name": "Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/index.aspx"
   },
   {
-    "name": "IHS Global Insight: Pricing & Purchasing",
+    "name": "Accuris Global Insight: Pricing & Purchasing",
     "url": "http://www.ihs.com/products/pricing-purchasing-analysis/index.aspx"
   },
   {
-    "name": "IHS Global Scenarios",
+    "name": "Accuris Global Scenarios",
     "url": "http://www.ihs.com/products/global-scenarios/index.aspx"
   },
   {
-    "name": "IHS Global Scenarios Framework Report : IHS Global Scenarios",
+    "name": "Accuris Global Scenarios Framework Report : Accuris Global Scenarios",
     "url": "http://www.ihs.com/products/global-scenarios/advisory-services.aspx"
   },
   {
-    "name": "IHS Herold: Energy Company & Transaction Valuations",
+    "name": "Accuris Herold: Energy Company & Transaction Valuations",
     "url": "http://www.ihs.com/products/herold/index.aspx"
   },
   {
-    "name": "IHS Information Hub : Energy Information, Software & Solutions",
+    "name": "Accuris Information Hub : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/data-access/hubs/index.aspx"
   },
   {
-    "name": "IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/index.aspx"
   },
   {
-    "name": "IHS Maps : Energy Information, Software & Solutions",
+    "name": "Accuris Maps : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/maps/canada.aspx"
   },
   {
-    "name": "IHS Midstream Data : Energy Information, Software & Solutions",
+    "name": "Accuris Midstream Data : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/midstream-data/canada.aspx"
   },
   {
-    "name": "IHS Online Structured Maps & Interpreted Formation Tops : Energy Information, Software & Solutions",
+    "name": "Accuris Online Structured Maps & Interpreted Formation Tops : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/geology-data/us-structure-maps.aspx"
   },
   {
-    "name": "IHS Seismic Location Data : Energy Information, Software & Solutions",
+    "name": "Accuris Seismic Location Data : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/geology-data/canada-seismic-location.aspx"
   },
   {
-    "name": "IHS Well Data : Energy Information, Software & Solutions",
+    "name": "Accuris Well Data : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/well-data/canada.aspx"
   },
   {
-    "name": "IHS Well Documents : Energy Information, Software & Solutions",
+    "name": "Accuris Well Documents : Energy Information, Software & Solutions",
     "url": "http://www.ihs.com/products/oil-gas-information/well-data/canada-documents.aspx"
   },
   {
@@ -1260,11 +1260,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/consulting/industries/index.aspx"
   },
   {
-    "name": "Industry Forums: Energy Strategy : IHS CERA: Energy Strategy",
+    "name": "Industry Forums: Energy Strategy : Accuris CERA: Energy Strategy",
     "url": "http://www.ihs.com/products/cera/energy-industry/index.aspx"
   },
   {
-    "name": "Industry Intelligence: Economic Forecasting : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Industry Intelligence: Economic Forecasting : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/index.aspx"
   },
   {
@@ -1276,7 +1276,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/index.aspx"
   },
   {
-    "name": "Infantry Weapons : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Infantry Weapons : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/infantry-weapons.aspx"
   },
   {
@@ -1284,7 +1284,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/well-data/integrated-geological.aspx"
   },
   {
-    "name": "Intelligence Review : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Intelligence Review : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/news/intelligence-review.aspx"
   },
   {
@@ -1292,15 +1292,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/mro/supply-chain-management.aspx"
   },
   {
-    "name": "International ABC Aerospace Directory : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "International ABC Aerospace Directory : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/industry/abc-aerospace-directory.aspx"
   },
   {
-    "name": "International Defense Directory : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "International Defense Directory : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/industry/defence-directory.aspx"
   },
   {
-    "name": "International Defense Review : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "International Defense Review : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/news/international-defence-review.aspx"
   },
   {
@@ -1328,7 +1328,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/isea/index.aspx"
   },
   {
-    "name": "Islamic Affairs Analyst : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Islamic Affairs Analyst : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/news/islamic-affairs-analyst.aspx"
   },
   {
@@ -1348,11 +1348,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/isuzu/index.aspx"
   },
   {
-    "name": "IT & Telecom Same-Day Analysis : IHS Global Insight: Country & Industry Forecasting",
+    "name": "IT & Telecom Same-Day Analysis : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/telecom/same-day.aspx"
   },
   {
-    "name": "IT & Telecoms Analysis & Forecast Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "IT & Telecoms Analysis & Forecast Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/telecom/index.aspx"
   },
   {
@@ -1384,11 +1384,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/surface-data/us-land-grid.aspx"
   },
   {
-    "name": "Land-Based Air Defense : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Land-Based Air Defense : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/land-based-air-defence.aspx"
   },
   {
-    "name": "Law Enforcement & Policing : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Law Enforcement & Policing : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/law-enforcement-handbooks/index.aspx"
   },
   {
@@ -1400,15 +1400,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/news/geps-license-monitor.aspx"
   },
   {
-    "name": "Light-vehicle Forecasts : Automotive Forecasting: IHS Automotive",
+    "name": "Light-vehicle Forecasts : Automotive Forecasting: Accuris Automotive",
     "url": "http://www.ihs.com/products/automotive/light-vehicle-forecasts/index.aspx"
   },
   {
-    "name": "List of Shipowners : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "List of Shipowners : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/ships/shipowner-list.aspx"
   },
   {
-    "name": "LNGLive Energy Trading : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "LNGLive Energy Trading : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/energy/lnglive-energy-trading.aspx"
   },
   {
@@ -1428,27 +1428,27 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/midstream-data/industrial-plants.aspx"
   },
   {
-    "name": "Marine Propulsion : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Marine Propulsion : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/naval/marine-propulsion.aspx"
   },
   {
-    "name": "Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/index.aspx"
   },
   {
-    "name": "Maritime News & Analysis : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Maritime News & Analysis : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/news/index.aspx"
   },
   {
-    "name": "Market Intelligence Network : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Market Intelligence Network : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/energy/market-intelligence-network.aspx"
   },
   {
-    "name": "McCloskey Nuclear Business : Coal Information & Insight: IHS McCloskey",
+    "name": "McCloskey Nuclear Business : Coal Information & Insight: Accuris McCloskey",
     "url": "http://www.ihs.com/products/coal-information/nuclear.aspx"
   },
   {
-    "name": "MDA Watchkeeper : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "MDA Watchkeeper : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/ship-movement-tracking/mda-watchkeeper.aspx"
   },
   {
@@ -1456,19 +1456,19 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/mro/sap-mdm.aspx"
   },
   {
-    "name": "Medium- and Heavy-duty Vehicle Forecasts : Automotive Forecasting: IHS Automotive",
+    "name": "Medium- and Heavy-duty Vehicle Forecasts : Automotive Forecasting: Accuris Automotive",
     "url": "http://www.ihs.com/products/automotive/heavy-vehicle-forecasts/index.aspx"
   },
   {
-    "name": "Merchant Ships : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Merchant Ships : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/merchant-ships.aspx"
   },
   {
-    "name": "Metallurgical Coal Quarterly : Coal Information & Insight: IHS McCloskey",
+    "name": "Metallurgical Coal Quarterly : Coal Information & Insight: Accuris McCloskey",
     "url": "http://www.ihs.com/products/coal-information/metallurgical.aspx"
   },
   {
-    "name": "Mexican Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Mexican Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/mexico-economic-forecasts.aspx"
   },
   {
@@ -1476,15 +1476,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/midstream-data/essentials.aspx"
   },
   {
-    "name": "Military & Security Assessment Intelligence Centre : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Military & Security Assessment Intelligence Centre : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/military-assessments-intelligence-centre.aspx"
   },
   {
-    "name": "Military Capabilities : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Military Capabilities : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/military-capabilities/index.aspx"
   },
   {
-    "name": "Military Communications : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Military Communications : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/systems/military-communications.aspx"
   },
   {
@@ -1492,7 +1492,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/mil-spec/index.aspx"
   },
   {
-    "name": "Military Vehicles and Logistics : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Military Vehicles and Logistics : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/military-vehicles-logistics.aspx"
   },
   {
@@ -1500,11 +1500,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/canada-land-data/ihs.aspx"
   },
   {
-    "name": "Mines and Mine Clearance : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Mines and Mine Clearance : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/mines-clearance.aspx"
   },
   {
-    "name": "Missiles and Rockets : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Missiles and Rockets : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/news/missiles-rockets.aspx"
   },
   {
@@ -1512,7 +1512,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/ministry-defence-uk/index.aspx"
   },
   {
-    "name": "Movement Information : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Movement Information : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/ship-movement-tracking/index.aspx"
   },
   {
@@ -1532,11 +1532,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/mss/index.aspx"
   },
   {
-    "name": "Multi-client Studies and Market Research : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Multi-client Studies and Market Research : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/multi-client-studies-market.aspx"
   },
   {
-    "name": "Multiclient Studies: Energy Strategy : IHS CERA: Energy Strategy",
+    "name": "Multiclient Studies: Energy Strategy : Accuris CERA: Energy Strategy",
     "url": "http://www.ihs.com/products/cera/multi-client-studies/index.aspx"
   },
   {
@@ -1552,11 +1552,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/nato/index.aspx"
   },
   {
-    "name": "Naval Construction and Retrofit Markets : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Naval Construction and Retrofit Markets : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/industry/naval-construction-retrofit-markets.aspx"
   },
   {
-    "name": "Naval Weapon Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Naval Weapon Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/naval/weapon-systems.aspx"
   },
   {
@@ -1568,7 +1568,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/navy/index.aspx"
   },
   {
-    "name": "Navy International : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Navy International : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/news/navy-international.aspx"
   },
   {
@@ -1628,7 +1628,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/nsf/index.aspx"
   },
   {
-    "name": "Nuclear, Biological and Chemical Defense : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Nuclear, Biological and Chemical Defense : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/nuclear-biological-chemical.aspx"
   },
   {
@@ -1652,7 +1652,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/services/index.aspx"
   },
   {
-    "name": "Online Advertising : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Online Advertising : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/advertising/online.aspx"
   },
   {
@@ -1664,11 +1664,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/paptac/index.aspx"
   },
   {
-    "name": "Part I Promotion Crammer for Sergeants’ and Inspectors' Exams : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Part I Promotion Crammer for Sergeants’ and Inspectors' Exams : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/law-enforcement-handbooks/part-I-promotion-crammer.aspx"
   },
   {
-    "name": "Part II Pass for Promotion for Sergeants’ and Inspectors’ Exams : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Part II Pass for Promotion for Sergeants’ and Inspectors’ Exams : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/law-enforcement-handbooks/part-II-pass-for-promotion.aspx"
   },
   {
@@ -1676,7 +1676,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/ehs-sustainability/partners/index.aspx"
   },
   {
-    "name": "PEDS Complete : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "PEDS Complete : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/peds-complete.aspx"
   },
   {
@@ -1712,11 +1712,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/pfi/index.aspx"
   },
   {
-    "name": "Pharma Risk-Sharing Agreement Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Pharma Risk-Sharing Agreement Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/risk-sharing.aspx"
   },
   {
-    "name": "PharmOnline International : IHS Global Insight: Country & Industry Forecasting",
+    "name": "PharmOnline International : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/pharma-pricing-data.aspx"
   },
   {
@@ -1740,23 +1740,23 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/analysis-software/well-modeling.aspx"
   },
   {
-    "name": "Police and Homeland Security Equipment : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Police and Homeland Security Equipment : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/police-homeland-security.aspx"
   },
   {
-    "name": "Police Review : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Police Review : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/news/police-review.aspx"
   },
   {
-    "name": "Port Information : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Port Information : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/port/index.aspx"
   },
   {
-    "name": "Ports & Terminals Guide : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Ports & Terminals Guide : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/port/ports-terminals-guide.aspx"
   },
   {
-    "name": "Ports Guide CD-ROM : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Ports Guide CD-ROM : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/port/ports-terminals-cd.aspx"
   },
   {
@@ -1764,7 +1764,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/analysis-software/powertools.aspx"
   },
   {
-    "name": "Powertrain and Alternative Propulsion : Automotive Forecasting: IHS Automotive",
+    "name": "Powertrain and Alternative Propulsion : Automotive Forecasting: Accuris Automotive",
     "url": "http://www.ihs.com/products/automotive/powertrain-forecasts/index.aspx"
   },
   {
@@ -1772,7 +1772,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/ppi/index.aspx"
   },
   {
-    "name": "Practical Guides & Handbooks: Maritime : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Practical Guides & Handbooks: Maritime : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/handbooks/index.aspx"
   },
   {
@@ -1796,7 +1796,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/analysis-software/questor.aspx"
   },
   {
-    "name": "Radar and Electronic Warfare Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Radar and Electronic Warfare Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/systems/radar-electronic-warfare.aspx"
   },
   {
@@ -1808,7 +1808,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/log-data/raster-well-canada.aspx"
   },
   {
-    "name": "Register of Ships : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Register of Ships : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/ships/register.aspx"
   },
   {
@@ -1820,15 +1820,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/renewable-energy-research/index.aspx"
   },
   {
-    "name": "Research & Consultancy Services: Maritime : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Research & Consultancy Services: Maritime : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/consulting/index.aspx"
   },
   {
-    "name": "Retail Finance and Capital Market Multiclient Studies : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Retail Finance and Capital Market Multiclient Studies : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/financial/client-studies.aspx"
   },
   {
-    "name": "Retail Finance Competitive Intelligence Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Retail Finance Competitive Intelligence Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/financial/retail-competitive-intelligence.aspx"
   },
   {
@@ -1852,7 +1852,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/data-access/sales-analyst.aspx"
   },
   {
-    "name": "Same-Day Analysis and Special Reports : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Same-Day Analysis and Special Reports : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/same-day.aspx"
   },
   {
@@ -1868,7 +1868,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/sci/index.aspx"
   },
   {
-    "name": "Scottish Beat Officer's Companion : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Scottish Beat Officer's Companion : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/law-enforcement-handbooks/scottish-beat-officers-companion.aspx"
   },
   {
@@ -1876,19 +1876,19 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/screen-digest/index.aspx"
   },
   {
-    "name": "Sea-Sentinel : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Sea-Sentinel : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/port/sea-sentinel.aspx"
   },
   {
-    "name": "Sea-web : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Sea-web : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/ships/sea-web.aspx"
   },
   {
-    "name": "Sea-web - Ports : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Sea-web - Ports : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/port/sea-web-ports.aspx"
   },
   {
-    "name": "Security Intelligence Solutions : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Security Intelligence Solutions : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/index.aspx"
   },
   {
@@ -1904,11 +1904,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/ses/index.aspx"
   },
   {
-    "name": "Ship, Ownership, Builder & Company Information : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Ship, Ownership, Builder & Company Information : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/ships/index.aspx"
   },
   {
-    "name": "Simulation and Training Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Simulation and Training Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/systems/simulation-training.aspx"
   },
   {
@@ -1928,7 +1928,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/new-zealand/index.aspx"
   },
   {
-    "name": "Sovereign Risk Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Sovereign Risk Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/sovereign-credit-risk.aspx"
   },
   {
@@ -1936,7 +1936,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/sheila-pantry/index.aspx"
   },
   {
-    "name": "Space Systems & Industry : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Space Systems & Industry : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/air/space-systems-industry.aspx"
   },
   {
@@ -1964,15 +1964,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/solutions/standards-expert.aspx"
   },
   {
-    "name": "Steam Coal Forecaster Online : Coal Information & Insight: IHS McCloskey",
+    "name": "Steam Coal Forecaster Online : Coal Information & Insight: Accuris McCloskey",
     "url": "http://www.ihs.com/products/coal-information/steam-coal-forecasts.aspx"
   },
   {
-    "name": "Steel Analysis and Forecasts : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Steel Analysis and Forecasts : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/steel/index.aspx"
   },
   {
-    "name": "Strategic Weapon Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Strategic Weapon Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/systems/strategic-weapon.aspx"
   },
   {
@@ -2004,19 +2004,19 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/itaa-geia-csia/index.aspx"
   },
   {
-    "name": "Terrorism & Insurgency Intelligence Centre : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Terrorism & Insurgency Intelligence Centre : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/terrorism-insurgency-intelligence-centre/index.aspx"
   },
   {
-    "name": "Terrorism and Security Monitor : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Terrorism and Security Monitor : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/news/terrorism-security-monitor.aspx"
   },
   {
-    "name": "Terrorism Events Spatial Layer : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Terrorism Events Spatial Layer : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/terrorism-insurgency-intelligence-centre/events-spatial-layer.aspx"
   },
   {
-    "name": "Terrorism Watch Report : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Terrorism Watch Report : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/news/terrorism-watch-report.aspx"
   },
   {
@@ -2028,23 +2028,23 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/trada/index.aspx"
   },
   {
-    "name": "Traffic Officer's Companion : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Traffic Officer's Companion : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/law-enforcement-handbooks/traffic-officers-companion.aspx"
   },
   {
-    "name": "Transaction Valuations Research : IHS Herold: Energy Company & Transaction Valuations",
+    "name": "Transaction Valuations Research : Accuris Herold: Energy Company & Transaction Valuations",
     "url": "http://www.ihs.com/products/herold/energy-transaction-research/index.aspx"
   },
   {
-    "name": "Transearch : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Transearch : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/commerce-transport/database.aspx"
   },
   {
-    "name": "Transport Finance : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Transport Finance : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/finance.aspx"
   },
   {
-    "name": "Transport Library : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Transport Library : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/library.aspx"
   },
   {
@@ -2052,7 +2052,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/surface-data/canada-transportation-infrastructure.aspx"
   },
   {
-    "name": "Transportation News & Reference : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Transportation News & Reference : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/index.aspx"
   },
   {
@@ -2080,7 +2080,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/ulc/index.aspx"
   },
   {
-    "name": "Underwater Warfare Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Underwater Warfare Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/naval/underwater-warfare-systems.aspx"
   },
   {
@@ -2088,15 +2088,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/uni/index.aspx"
   },
   {
-    "name": "Unmanned Aerial Vehicles and Targets : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Unmanned Aerial Vehicles and Targets : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/air/unmanned-aerial-vehicles-targets.aspx"
   },
   {
-    "name": "Unmanned Ground Vehicles and Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Unmanned Ground Vehicles and Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/land/unmanned-ground-vehicles-systems.aspx"
   },
   {
-    "name": "Unmanned Maritime Vehicles & Systems : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Unmanned Maritime Vehicles & Systems : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence/naval/unmanned-maritime-vehicles-systems.aspx"
   },
   {
@@ -2104,39 +2104,39 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/uop/index.aspx"
   },
   {
-    "name": "Urban Transport System : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "Urban Transport System : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/urban-systems.aspx"
   },
   {
-    "name": "US Agriculture Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US Agriculture Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/agriculture/us-forecasts.aspx"
   },
   {
-    "name": "US Construction - Building Materials : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US Construction - Building Materials : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/construction/us-building-materials.aspx"
   },
   {
-    "name": "US Consumer Markets Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US Consumer Markets Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/consumer-goods/us-market.aspx"
   },
   {
-    "name": "US Economic Data & Press Releases : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US Economic Data & Press Releases : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/financial/us-economic-data.aspx"
   },
   {
-    "name": "US Economic Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US Economic Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/us-economic-forecasts.aspx"
   },
   {
-    "name": "US Healthcare Cost Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US Healthcare Cost Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/us-costs.aspx"
   },
   {
-    "name": "US Industry Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US Industry Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/us-industry-economic-forecasts.aspx"
   },
   {
-    "name": "US Infrastructure Construction : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US Infrastructure Construction : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/construction/us-infrastructure.aspx"
   },
   {
@@ -2144,11 +2144,11 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/production-data/us.aspx"
   },
   {
-    "name": "US Regional Services : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US Regional Services : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/us-regional-economic-forecasts.aspx"
   },
   {
-    "name": "US State & Metro Area Construction : IHS Global Insight: Country & Industry Forecasting",
+    "name": "US State & Metro Area Construction : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/construction/us-state-metro.aspx"
   },
   {
@@ -2156,7 +2156,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/well-data/us.aspx"
   },
   {
-    "name": "Utility Sourcing : IHS Global Insight: Country & Industry Forecasting",
+    "name": "Utility Sourcing : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/energy/utility-sourcing.aspx"
   },
   {
@@ -2164,7 +2164,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/organizations/VDE/index.aspx"
   },
   {
-    "name": "Vessel Movement Service : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "Vessel Movement Service : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/energy/vessel-movement.aspx"
   },
   {
@@ -2188,19 +2188,19 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/industry-standards/collections/wiring/index.aspx"
   },
   {
-    "name": "World Air Forces : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "World Air Forces : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/military-capabilities/world-air-forces.aspx"
   },
   {
-    "name": "World Armies : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "World Armies : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/military-capabilities/world-armies.aspx"
   },
   {
-    "name": "World Defense Industry : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "World Defense Industry : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/defence-business/industry/world-defense-industry.aspx"
   },
   {
-    "name": "World Economic Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Economic Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/world-economic.aspx"
   },
   {
@@ -2208,15 +2208,15 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/news/world-geophysical.aspx"
   },
   {
-    "name": "World Industry Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Industry Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/country-analysis/world-industry.aspx"
   },
   {
-    "name": "World Insurgency and Terrorism : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "World Insurgency and Terrorism : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/terrorism-insurgency-intelligence-centre/world.aspx"
   },
   {
-    "name": "World Markets Cardiovascular & Metabolic : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Markets Cardiovascular & Metabolic : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/cardiovascular-metabolic.aspx"
   },
   {
@@ -2224,51 +2224,51 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/news/world-markets-energy.aspx"
   },
   {
-    "name": "World Markets Generics & Biosimilars : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Markets Generics & Biosimilars : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/generics.aspx"
   },
   {
-    "name": "World Markets Healthcare : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Markets Healthcare : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/world-markets.aspx"
   },
   {
-    "name": "World Markets Healthcare Forecasting Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Markets Healthcare Forecasting Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/forecasts.aspx"
   },
   {
-    "name": "World Markets Oncology : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Markets Oncology : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/oncology.aspx"
   },
   {
-    "name": "World Markets Ophthalmology : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Markets Ophthalmology : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/ophthalmology.aspx"
   },
   {
-    "name": "World Markets Pricing & Reimbursement : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Markets Pricing & Reimbursement : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/healthcare-pharmaceutical/pricing-reimbursement.aspx"
   },
   {
-    "name": "World Markets Telecoms : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Markets Telecoms : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/telecom/country-company.aspx"
   },
   {
-    "name": "World Navies : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "World Navies : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/security/military-capabilities/world-navies.aspx"
   },
   {
-    "name": "World Railways : IHS Jane's: Defense & Security Intelligence & Analysis",
+    "name": "World Railways : Accuris Jane's: Defense & Security Intelligence & Analysis",
     "url": "http://www.ihs.com/products/janes/transport/world-railways.aspx"
   },
   {
-    "name": "World Register of Ships : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "World Register of Ships : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/ships/world-register.aspx"
   },
   {
-    "name": "World Shipping Encyclopaedia : Maritime Intelligence & Publications: IHS Fairplay",
+    "name": "World Shipping Encyclopaedia : Maritime Intelligence & Publications: Accuris Fairplay",
     "url": "http://www.ihs.com/products/maritime-information/ships/world-shipping-encyclopedia.aspx"
   },
   {
-    "name": "World Trade Service : IHS Global Insight: Country & Industry Forecasting",
+    "name": "World Trade Service : Accuris Global Insight: Country & Industry Forecasting",
     "url": "http://www.ihs.com/products/global-insight/industry-analysis/commerce-transport/world-trade.aspx"
   },
   {
@@ -2280,7 +2280,7 @@ export const standardsSocieties = [
     "url": "http://www.ihs.com/products/oil-gas-information/maps/worldwide-sedimentary-basins.aspx"
   },
   {
-    "name": "(http://www.ihs.com/products/industry-standards/organizations/index.aspx)",
+    "name": "(http://www.Accuris.com/products/industry-standards/organizations/index.aspx)",
     "url": "http://www.ihs.com/products/industry-standards/organizations/index.aspx"
   }
 ];

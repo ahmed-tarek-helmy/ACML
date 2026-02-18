@@ -11,9 +11,18 @@ import {
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
+interface Service {
+  icon: any;
+  title: string;
+  description: string;
+  features: (string | { label: string; path: string })[];
+  linkId?: string;
+  path?: string;
+}
+
 export default function Services() {
   const location = useLocation();
-  const services = [
+  const services: Service[] = [
     {
       icon: BookOpen,
       title: "Books & Periodicals",
@@ -29,6 +38,7 @@ export default function Services() {
     {
       icon: Database,
       title: "Databases & Full-Text Access",
+      path: "/publishers/ebsco-databases",
       description:
         "Access to comprehensive databases and full-text resources from major international providers. Searchable, indexed content covering all academic and professional fields.",
       features: [
@@ -42,6 +52,7 @@ export default function Services() {
     {
       icon: FileText,
       title: "Electronic Journals",
+      path: "/publishers/acm#publications-services",
       description:
         "Extensive collection of electronic journals from leading publishers worldwide. Instant access to thousands of peer-reviewed journals across all disciplines.",
       features: [
@@ -52,20 +63,9 @@ export default function Services() {
       ],
     },
     {
-      icon: Monitor,
-      title: "Library Automation Systems",
-      description:
-        "State-of-the-art library management systems including our proprietary LIBRARIAN software. Complete solutions for cataloging, circulation, acquisitions, and digital library management.",
-      features: [
-        "Integrated library systems",
-        "Cloud-based solutions",
-        "Multi-language support",
-        "Training and implementation support",
-      ],
-    },
-    {
       icon: Sofa,
       title: "Library Furniture",
+      path: "/publishers/demco",
       description:
         "Professional library furniture designed for modern learning spaces. Ergonomic, durable, and aesthetically pleasing furniture solutions for libraries of all sizes.",
       features: [
@@ -76,24 +76,13 @@ export default function Services() {
       ],
     },
     {
-      icon: Wrench,
-      title: "Restoration Materials",
-      description:
-        "Leading provider of library restoration laboratory equipment and materials. Comprehensive solutions for document preservation, conservation, and restoration.",
-      features: [
-        "Restoration equipment and tools",
-        "Conservation materials",
-        "Laboratory setup and training",
-        "Preservation consultation services",
-      ],
-    },
-    {
       icon: HardDrive,
-      title: "CD-ROMs & Digital Media",
+      title: "Digital Media (PressReader)",
+      path: "/publishers/pressreader",
       description:
-        "Digital content on CD-ROM and other media formats. Educational software, reference materials, and multimedia resources for libraries and institutions.",
+        "Digital content on media formats. Educational software, reference materials, and multimedia resources for libraries and institutions.",
       features: [
-        "Educational CD-ROMs",
+        "Reference Materials",
         "Reference databases",
         "Multimedia learning resources",
         "Site licenses available",
@@ -124,6 +113,7 @@ export default function Services() {
     {
       icon: Lightbulb,
       title: "ICT Consultancy Services",
+      path: "/about/team",
       description:
         "Expert consultancy in information and communication technology. Strategic planning, implementation support, and training for digital transformation initiatives.",
       features: [
@@ -147,7 +137,7 @@ export default function Services() {
 
   return (
     <div className="pt-20">
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
@@ -162,7 +152,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="space-y-16">
             {services.map((service, index) => (
@@ -181,7 +171,16 @@ export default function Services() {
                     />
                   </div>
                   <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                    {service.title}
+                    {service.path ? (
+                      <Link
+                        to={service.path}
+                        className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                      >
+                        {service.title}
+                      </Link>
+                    ) : (
+                      service.title
+                    )}
                   </h2>
                   <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
                     {service.description}
@@ -230,7 +229,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-12">
             <div className="text-center mb-8">

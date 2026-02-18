@@ -12,7 +12,7 @@ export default function Publishers() {
           name: "AIAA - American Institute of Aeronautics and Astronautics",
           id: "aiaa",
         },
-        { name: "AV DATA", id: "av-data" },
+
         {
           name: "ICAO - International Civil Aviation Organization",
           id: "icao",
@@ -24,30 +24,28 @@ export default function Publishers() {
       category: "Engineering Design's & Tools",
       organizations: [
         { name: "ESDU - Engineering Sciences Data Unit", id: "esdu" },
-        { name: "PTC - Productivity and Technology Council", id: "ptc" },
-        { name: "IHS Intermat Solutions", id: "intermat" },
       ],
     },
     {
       category: "Aggregators & Data Banks",
       organizations: [
         { name: "ACM - Association for Computing Machinery", id: "acm" },
-        { name: "CABI Publishing", id: "cabi" },
+
         { name: "Ebsco Information Services ", id: "ebsco" },
         { name: "EBSCO Databases List", id: "ebsco-databases" },
         { name: "Taylor & Francis Research", id: "taylor-francis" },
       ],
     },
     {
-      category: "E-Books Databases",
+      category: "Humanities , Social Sciences & Art Databases",
       organizations: [
-        { name: "Thieme Group", id: "thieme" },
+        
         { name: "Bloomsbury", id: "bloomsbury" },
         { name: "Harmattan E-Books", id: "harmattan" },
       ],
     },
     {
-      category: "Economics, Business & Social Sciences",
+      category: "Economics & Business",
       organizations: [
         { name: "Global Trade Tracker", id: "gtt" },
         { name: "HeinOnline Business & Economics", id: "hein" },
@@ -59,6 +57,8 @@ export default function Publishers() {
         { name: "3B Scientific ", id: "3b-scientific" },
         { name: "Primal Pictures ", id: "primal-pictures" },
         { name: "Jaypee ", id: "jaypee" },
+        { name: "Thieme Group", id: "thieme" },
+        { name: "Ebsco Information Services ", id: "ebsco" }
       ],
     },
     {
@@ -97,7 +97,10 @@ export default function Publishers() {
           name: "EBSCO (Military & Government Collections)",
           id: "ebsco-military",
         },
-        { name: "Military Specifications and Standards - IHS", id: "milspecs" },
+        {
+          name: "Military Specifications and Standards - Accuris",
+          id: "milspecs",
+        },
       ],
     },
     {
@@ -135,10 +138,7 @@ export default function Publishers() {
           id: "astm",
         },
         { name: "ASTM Proficiency Testing Program (PTP)", id: "astm-ptp" },
-        {
-          name: "AV DATA - American Society for Testing and Materials",
-          id: "av-data",
-        },
+
         { name: "AWS - American Society for Testing and Materials", id: "aws" },
         { name: "AIP - American Institute of Physics", id: "aip" },
         { name: "ChemWatch", id: "chemwatch" },
@@ -148,7 +148,7 @@ export default function Publishers() {
           id: "icao",
         },
         { name: "NFPA - National Fire Protection Association", id: "nfpa" },
-        { name: "PTC - Productivity and Technology Council", id: "ptc" },
+
         { name: "SAE - Society of Automotive Engineers", id: "sae" },
         {
           name: "SIAM - Society for Industrial and Applied Mathematics",
@@ -259,7 +259,7 @@ export default function Publishers() {
 
   return (
     <div className="pt-20">
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="w-20 h-20 bg-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -278,7 +278,7 @@ export default function Publishers() {
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-16 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
@@ -301,7 +301,7 @@ export default function Publishers() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -367,7 +367,7 @@ export default function Publishers() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -393,7 +393,7 @@ export default function Publishers() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-12">

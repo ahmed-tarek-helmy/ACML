@@ -67,7 +67,7 @@ export default function About() {
 
   return (
     <div className="pt-20">
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
@@ -83,7 +83,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
@@ -146,153 +146,155 @@ export default function About() {
 
       {/* Navigation Section */}
       <section className="py-20 bg-gray-50 dark:bg-gray-800">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Explore ACML
-            </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              Discover more about our organization, leadership, and standards.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {/* Organization */}
-            <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-emerald-600 dark:text-emerald-400 border-b border-emerald-200 dark:border-emerald-800 pb-2">
-                Organization
-              </h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link
-                    to="/about/mission"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <Target size={18} className="mr-2" /> Mission & Vision
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about/team"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <Users size={18} className="mr-2" /> Board of Advisors
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about/team/sector-managers"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <User size={18} className="mr-2" /> Sector Managers
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about/team/employees"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <Users size={18} className="mr-2" /> Employees
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about/represent"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <Globe size={18} className="mr-2" /> ACML Represents
-                  </Link>
-                </li>
-              </ul>
+        <div className="mr-20 ml-20">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+                Explore ACML
+              </h2>
+              <p className="text-lg text-gray-600 dark:text-gray-300">
+                Discover more about our organization, leadership, and standards.
+              </p>
             </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+              {/* Organization */}
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-emerald-600 dark:text-emerald-400 border-b border-emerald-200 dark:border-emerald-800 pb-2">
+                  Organization
+                </h3>
+                <ul className="space-y-3">
+                  <li>
+                    <Link
+                      to="/about/mission"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <Target size={18} className="mr-2" /> Mission & Vision
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about/team"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <Users size={18} className="mr-2" /> Board of Advisors
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about/team/sector-managers"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <User size={18} className="mr-2" /> Sector Managers
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about/team/employees"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <Users size={18} className="mr-2" /> Employees
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about/represent"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <Globe size={18} className="mr-2" /> ACML Represents
+                    </Link>
+                  </li>
+                </ul>
+              </div>
 
-            {/* Leadership */}
-            <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-emerald-600 dark:text-emerald-400 border-b border-emerald-200 dark:border-emerald-800 pb-2">
-                Leadership
-              </h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link
-                    to="/about/chairman"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <User size={18} className="mr-2" /> The Chairman
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about/chairman/awards"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <Award size={18} className="mr-2" /> Chairman Awards
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about/chairman/accomplishments"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <Briefcase size={18} className="mr-2" /> Accomplishment
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about/chairman/clients"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <FileText size={18} className="mr-2" /> Client References
-                  </Link>
-                </li>
-              </ul>
-            </div>
+              {/* Leadership */}
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-emerald-600 dark:text-emerald-400 border-b border-emerald-200 dark:border-emerald-800 pb-2">
+                  Leadership
+                </h3>
+                <ul className="space-y-3">
+                  <li>
+                    <Link
+                      to="/about/chairman"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <User size={18} className="mr-2" /> The Chairman
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about/chairman/awards"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <Award size={18} className="mr-2" /> Chairman Awards
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about/chairman/accomplishments"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <Briefcase size={18} className="mr-2" /> Accomplishment
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about/chairman/clients"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <FileText size={18} className="mr-2" /> Client References
+                    </Link>
+                  </li>
+                </ul>
+              </div>
 
-            {/* ASA Standards */}
-            <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-emerald-600 dark:text-emerald-400 border-b border-emerald-200 dark:border-emerald-800 pb-2">
-                Standards
-              </h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link
-                    to="/publishers#digital-library"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <BookOpen size={18} className="mr-2" /> Digital Library of
-                    International Codes and Standards
-                  </Link>
-                </li>
-              </ul>
-            </div>
+              {/* ASA Standards */}
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-emerald-600 dark:text-emerald-400 border-b border-emerald-200 dark:border-emerald-800 pb-2">
+                  Standards
+                </h3>
+                <ul className="space-y-3">
+                  <li>
+                    <Link
+                      to="/publishers#digital-library"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <BookOpen size={18} className="mr-2" /> Digital Library of
+                      International Codes and Standards
+                    </Link>
+                  </li>
+                </ul>
+              </div>
 
-            {/* Social Responsibility */}
-            <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-emerald-600 dark:text-emerald-400 border-b border-emerald-200 dark:border-emerald-800 pb-2">
-                Community
-              </h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link
-                    to="/about/donations-grants"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <Award size={18} className="mr-2" /> Donations & Grants
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about/awards"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                  >
-                    <Award size={18} className="mr-2" /> ACML Awards
-                  </Link>
-                </li>
-              </ul>
+              {/* Social Responsibility */}
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-emerald-600 dark:text-emerald-400 border-b border-emerald-200 dark:border-emerald-800 pb-2">
+                  Community
+                </h3>
+                <ul className="space-y-3">
+                  <li>
+                    <Link
+                      to="/about/donations-grants"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <Award size={18} className="mr-2" /> Donations & Grants
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about/awards"
+                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    >
+                      <Award size={18} className="mr-2" /> ACML Awards
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -333,7 +335,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 mr-20 ml-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>

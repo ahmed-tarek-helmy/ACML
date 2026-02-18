@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import FloatingActions from "./components/FloatingActions";
+import CookieConsent from "./components/CookieConsent";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import DonationsGrantsMaster from "./pages/About/Donations&Grants/DonationsGrantsMaster";
@@ -37,7 +39,7 @@ import Publishers from "./pages/Publishers";
 import PublisherAIAA from "./pages/Publishers/PublisherAIAA";
 import PublisherESDU from "./pages/Publishers/PublisherESDU";
 import PublisherACM from "./pages/Publishers/PublisherACM";
-import PublisherCABI from "./pages/Publishers/PublisherCABI";
+
 import PublisherEbsco from "./pages/Publishers/PublisherEbsco";
 import PublisherTaylorFrancis from "./pages/Publishers/PublisherTaylorFrancis";
 import PublisherThieme from "./pages/Publishers/PublisherThieme";
@@ -53,14 +55,14 @@ import PublisherASME from "./pages/Publishers/PublisherASME";
 import PublisherASMEBPVC from "./pages/Publishers/PublisherASMEBPVC";
 import PublisherASTM from "./pages/Publishers/PublisherASTM";
 import PublisherASTMPTP from "./pages/Publishers/PublisherASTMPTP";
-import PublisherAVDATA from "./pages/Publishers/PublisherAVDATA";
+
 import ChemwatchMaster from "./pages/Publishers/ChemWatch/ChemwatchMaster";
 import ChemENG from "./pages/Publishers/ChemWatch/ChemENG";
 import ChemArabic from "./pages/Publishers/ChemWatch/ChemArabic";
 import PublisherHaystack from "./pages/Publishers/PublisherHaystack";
 import PublisherICAO from "./pages/Publishers/PublisherICAO";
 import PublisherNFPA from "./pages/Publishers/PublisherNFPA";
-import PublisherPTC from "./pages/Publishers/PublisherPTC";
+
 import PublisherSAE from "./pages/Publishers/PublisherSAE";
 import PublisherSIAM from "./pages/Publishers/PublisherSIAM";
 import PublisherAIP from "./pages/Publishers/PublisherAIP";
@@ -79,7 +81,7 @@ import PublisherASNT from "./pages/Publishers/PublisherASNT";
 import PublisherEBSCODatabases from "./pages/Publishers/PublisherEBSCODatabases";
 import PublisherEBSCOMilitary from "./pages/Publishers/PublisherEBSCOMilitary";
 import PublisherStandardsSocieties from "./pages/Publishers/PublisherStandardsSocieties";
-import PublisherIntermat from "./pages/Publishers/PublisherIntermat";
+
 import PublisherLibrarian from "./pages/Publishers/PublisherLibrarian";
 import PublisherDemco from "./pages/Publishers/PublisherDemco";
 import PublisherGaylord from "./pages/Publishers/PublisherGaylord";
@@ -120,6 +122,8 @@ function App() {
         <div className="min-h-screen flex flex-col bg-gradient-to-br from-emerald-100 to-blue-100 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-gray-100 transition-colors duration-300">
           <ScrollToTop />
           <Header />
+          <FloatingActions />
+          <CookieConsent />
 
           <main className="flex-grow">
             <Routes>
@@ -185,7 +189,7 @@ function App() {
               <Route path="/publishers/aiaa" element={<PublisherAIAA />} />
               <Route path="/publishers/esdu" element={<PublisherESDU />} />
               <Route path="/publishers/acm" element={<PublisherACM />} />
-              <Route path="/publishers/cabi" element={<PublisherCABI />} />
+
               <Route path="/publishers/ebsco" element={<PublisherEbsco />} />
               <Route
                 path="/publishers/taylor-francis"
@@ -216,7 +220,7 @@ function App() {
                 path="/publishers/astm-ptp"
                 element={<PublisherASTMPTP />}
               />
-              <Route path="/publishers/av-data" element={<PublisherAVDATA />} />
+
               <Route
                 path="/publishers/chemwatch"
                 element={<ChemwatchMaster />}
@@ -229,7 +233,7 @@ function App() {
               />
               <Route path="/publishers/icao" element={<PublisherICAO />} />
               <Route path="/publishers/nfpa" element={<PublisherNFPA />} />
-              <Route path="/publishers/ptc" element={<PublisherPTC />} />
+
               <Route path="/publishers/sae" element={<PublisherSAE />} />
               <Route path="/publishers/siam" element={<PublisherSIAM />} />
               <Route path="/publishers/aip" element={<PublisherAIP />} />
@@ -278,10 +282,7 @@ function App() {
                 path="/publishers/standards"
                 element={<PublisherStandardsSocieties />}
               />
-              <Route
-                path="/publishers/intermat"
-                element={<PublisherIntermat />}
-              />
+
               <Route
                 path="/publishers/librarian"
                 element={<PublisherLibrarian />}
